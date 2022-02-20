@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 4981974337174985923}
   - component: {fileID: 4981974337174985920}
   - component: {fileID: 4981974337174985921}
-  - component: {fileID: 4981974337174985934}
   - component: {fileID: 4272351103442891648}
+  - component: {fileID: 5139559806808071468}
   m_Layer: 0
   m_Name: Small HP Potion
   m_TagString: Untagged
@@ -126,19 +126,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flightSpeed: 1
   gatheringDistance: 0.25
---- !u!114 &4981974337174985934
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4981974337174985935}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f0f31a7166a7f14eb82ee1027a842a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentObject: 1
 --- !u!50 &4272351103442891648
 Rigidbody2D:
   serializedVersion: 4
@@ -160,3 +147,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &5139559806808071468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4981974337174985935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 168f525473f5d114ea7a4f298d69b8a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healValue: 10

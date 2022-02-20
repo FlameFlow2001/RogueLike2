@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 2195538835919758096}
   - component: {fileID: 2195538835919758099}
   - component: {fileID: 2195538835919758098}
-  - component: {fileID: 2195538835919758108}
   - component: {fileID: -9220459667957697687}
   - component: {fileID: 3681678894832684917}
+  - component: {fileID: -4015185482115898591}
   m_Layer: 0
   m_Name: Coin
   m_TagString: Pickable
@@ -132,19 +132,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.2}
   m_EdgeRadius: 0
---- !u!114 &2195538835919758108
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2195538835919758103}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f0f31a7166a7f14eb82ee1027a842a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentObject: 0
 --- !u!50 &-9220459667957697687
 Rigidbody2D:
   serializedVersion: 4
@@ -180,3 +167,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flightSpeed: 1
   gatheringDistance: 0.25
+--- !u!114 &-4015185482115898591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2195538835919758103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5aa6ada76bb1c6498028ce6fa2e6e07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinValue: 5
