@@ -1,36 +1,39 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class BasicWeaponScript : MonoBehaviour
 {
-    public Transform weaponOwnerPos;
+    protected Transform weaponOwnerTransform;
+    protected Vector2 weaponOwnerPos;
     public GameObject projectile;
     protected Vector2 shootingDirection;
     public float projectileForce = 0.1f;
 
-    public Vector2 ShootingDirectionCalculating()
+    private void Start()
     {
-        if (weaponOwnerPos != null)
+        weaponOwnerTransform = GetComponentInParent<Transform>().parent;
+    }
+    protected Vector2 ShootingDirectionCalculating()
+    {
+        if (weaponOwnerTransform != null)
         {
             Vector2 mousePos2D = Input.mousePosition;
             var screenToCameraDistance = Camera.main.nearClipPlane;
             var mousePosNearClipPlane = new Vector3(mousePos2D.x, mousePos2D.y, screenToCameraDistance);
             Vector2 worldPointPos = Camera.main.ScreenToWorldPoint(mousePosNearClipPlane);
-            Vector2 myPos = weaponOwnerPos.transform.position;
-            Vector2 calculatedShootingDirection = (worldPointPos - myPos).normalized;
+            weaponOwnerPos = weaponOwnerTransform.transform.position;
+            Vector2 calculatedShootingDirection = (worldPointPos - weaponOwnerPos).normalized;
             return calculatedShootingDirection;
         }
         else
             return Vector2.zero;
     }
 
-    public virtual void Shoot()
+    protected virtual void Shoot()
     {
 
     }
 
-    public void Update()
+    private void Update()
     {
         if (Input.GetMouseButtonDown(1))
             Shoot();

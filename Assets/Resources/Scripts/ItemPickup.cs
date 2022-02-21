@@ -16,17 +16,6 @@ public class ItemPickup : MonoBehaviour
                     PlayerStats.playerStats.AddCoins(1);
                     break;
 
-                case pickupObjects.SMALLHPPOTION:
-                    PlayerStats.playerStats.HealCharacter(25);
-                    break;
-
-                case pickupObjects.MEDIUMHPPOTION:
-                    PlayerStats.playerStats.HealCharacter(50);
-                    break;
-
-                case pickupObjects.BIGHPPOTION:
-                    PlayerStats.playerStats.HealCharacter(100);
-                    break;
             }
             Destroy(gameObject);
         }
