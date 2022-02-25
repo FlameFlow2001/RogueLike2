@@ -3,7 +3,7 @@ using UnityEngine.UI;
 public class PlayerStats : MonoBehaviour
 {
     public static PlayerStats playerStats;
-    public GameObject player;
+    private GameObject player;
     public float maxHealth;
     public float health;
     public Text healthText;
@@ -25,6 +25,7 @@ public class PlayerStats : MonoBehaviour
     }
     void Start()
     {
+        player = this.gameObject;
         if (health <= 0 || health > maxHealth)
             health = maxHealth;
         SetHealthUI();
@@ -66,10 +67,7 @@ public class PlayerStats : MonoBehaviour
         }
     }
 
-    float CalculateHealthPercentage()
-    {
-        return health / maxHealth;
-    }
+    float CalculateHealthPercentage() { return health / maxHealth; }
 
     public void AddCoins(int amount)
     {
