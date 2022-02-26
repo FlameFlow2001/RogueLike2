@@ -3,15 +3,27 @@ using UnityEngine.UI;
 
 public class GameUI : MonoBehaviour
 {
-    //private Text healthText;
-    //private Slider healthSlider;
-    //private Text coinsValue;
-    //PlayerStats playerStats;
+    private GameObject player;
+    private PlayerStats playerStats;
+    [SerializeField] private Slider healthSlider;
+    [SerializeField] private Text healthValue;
+    [SerializeField] private Text coinValue;
 
-    //float CalculateHealthPercentage() { return health / maxHealth; }
-    //private void SetHealthUI()
-    //{
-    //    playerStats.healthSlider.value = CalculateHealthPercentage();
-    //    healthText.text = health.ToString() + "/" + maxHealth.ToString();
-    //}
+    private void Start()
+    {
+        player = GameObject.Find("Player");
+        playerStats = player.GetComponent<PlayerStats>();
+    }
+
+    
+    public void SetHealthUI()
+    {
+        healthSlider.value = playerStats.CalculateHealthPercentage();
+        healthValue.text = playerStats.health.ToString() + "/" + playerStats.maxHealth.ToString();
+    }
+
+    public void SetCoinsUI()
+    {
+        coinValue.text = playerStats.coins.ToString();
+    }
 }

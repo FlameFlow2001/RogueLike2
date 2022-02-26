@@ -7,6 +7,6 @@ public class HPPotion : PickableObjects
     public int healValue;
     protected override void PickingUp()
     {
-        PlayerStats.playerStats.HealCharacter(healValue);
+        playerStats.HealCharacter(healValue);
     }
 }

@@ -2,53 +2,38 @@ using UnityEngine;
 using UnityEngine.UI;
 public class PlayerStats : MonoBehaviour
 {
-    public static PlayerStats playerStats;
     private GameObject player;
+    private GameUI gameUI;
     public float maxHealth;
     public float health;
-    public Text healthText;
-    public Slider healthSlider;
     public int coins;
-    public Text coinsValue;
     private void Awake()
     {
-        if (playerStats != null)
-        {
-            Destroy(playerStats);
-        }
-        else
-        {
-            playerStats = this;
-        }
-        playerStats = this;
         DontDestroyOnLoad(this);
     }
-    void Start()
+    private void Start()
     {
         player = this.gameObject;
+        gameUI = GameObject.Find("UI Overlay").GetComponent<GameUI>();
+        if (!gameUI)
+            Debug.Log("Can't find object called UI Overlay with GameUI script in scence");
         if (health <= 0 || health > maxHealth)
             health = maxHealth;
-        SetHealthUI();
+        gameUI.SetHealthUI();
     }
 
     public void DealDamage(float damage)
     {
         health -= damage;
         CheckDeath();
-        SetHealthUI();
+        gameUI.SetHealthUI();
     }
 
     public void HealCharacter(float heal)
     {
         health += heal;
         CheckOverheal();
-        SetHealthUI();
-    }
-
-    private void SetHealthUI()
-    {
-        healthSlider.value = CalculateHealthPercentage();
-        healthText.text = health.ToString() + "/" + maxHealth.ToString();
+        gameUI.SetHealthUI();
     }
     public void CheckOverheal()
     {
@@ -67,11 +52,11 @@ public class PlayerStats : MonoBehaviour
         }
     }
 
-    float CalculateHealthPercentage() { return health / maxHealth; }
+    public float CalculateHealthPercentage() { return health / maxHealth; }
 
     public void AddCoins(int amount)
     {
         coins += amount;
-        coinsValue.text = coins.ToString();
+        gameUI.SetCoinsUI();
     }
 }

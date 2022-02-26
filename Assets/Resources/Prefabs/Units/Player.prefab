@@ -74,7 +74,7 @@ GameObject:
   - component: {fileID: 2447510168015697221}
   - component: {fileID: 8633615499510315530}
   - component: {fileID: 3584905125596029729}
-  - component: {fileID: 104980877}
+  - component: {fileID: 1431197399}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -231,7 +231,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 1
   dashRange: 0.3
---- !u!114 &104980877
+--- !u!114 &1431197399
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -243,13 +243,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f06280a7230d514e89cf6f9ce27a632, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 2447510168015697216}
   maxHealth: 100
-  health: 80
-  healthText: {fileID: 0}
-  healthSlider: {fileID: 0}
+  health: 100
   coins: 0
-  coinsValue: {fileID: 0}
 --- !u!1 &6086915590585677814
 GameObject:
   m_ObjectHideFlags: 0

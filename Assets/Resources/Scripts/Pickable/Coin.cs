@@ -7,6 +7,6 @@ public class Coin : PickableObjects
     public int coinValue;
     protected override void PickingUp()
     {
-        PlayerStats.playerStats.AddCoins(coinValue);
+        playerStats.AddCoins(coinValue);
     }
 }

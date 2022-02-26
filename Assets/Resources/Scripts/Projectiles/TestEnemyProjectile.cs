@@ -5,6 +5,8 @@ using UnityEngine;
 public class TestEnemyProjectile : MonoBehaviour
 {
     public float damage;
+    private GameObject player;
+    private PlayerStats playerStats;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -12,7 +14,9 @@ public class TestEnemyProjectile : MonoBehaviour
         {
             if (collision.tag == "Player")
             {
-                PlayerStats.playerStats.DealDamage(damage);
+                player = collision.gameObject;
+                playerStats = player.GetComponent<PlayerStats>();
+                playerStats.DealDamage(damage);
             }
             Destroy(gameObject);
         }
