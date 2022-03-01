@@ -250,11 +250,11 @@ GameObject:
   - component: {fileID: 5180015136735502828}
   - component: {fileID: 2054695266884639714}
   - component: {fileID: 7707896653245592443}
-  - component: {fileID: 853675071952343606}
+  - component: {fileID: 1661205093}
   m_Layer: 0
   m_Name: Test Enemy
   m_TagString: Enemy
-  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -406,7 +406,7 @@ MonoBehaviour:
     type: 3}
   healthBar: {fileID: 2990931163597491238}
   healthBarSlider: {fileID: 3406284860886931770}
---- !u!114 &853675071952343606
+--- !u!114 &1661205093
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -415,11 +415,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 5180015136735502830}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5cc85ec1e6780143a0cc2a7fd263770, type: 3}
+  m_Script: {fileID: 11500000, guid: fe68772c6a596fa4391481c292b889d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
   health: 100
+  lootDrop: {fileID: 0}
 --- !u!1 &6926554432385130625
 GameObject:
   m_ObjectHideFlags: 0

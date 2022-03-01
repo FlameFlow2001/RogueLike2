@@ -1,10 +1,12 @@
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections.Generic;
 
 public class Units : MonoBehaviour
 {
     public float maxHealth;
     public float health;
+    public List<GameObject> lootDrop;
     protected UnitUI UI;
     protected virtual void Start()
     {
@@ -36,6 +38,7 @@ public class Units : MonoBehaviour
         {
             health = 0;
             Destroy(gameObject);
+            DropLoot();
         }
     }
 
@@ -64,5 +67,11 @@ public class Units : MonoBehaviour
         health += heal;
         CheckOverheal();
         UI.healthBarSlider.value = CalculateHealthPercentage();
+    }
+
+    public void DropLoot()
+    {
+        foreach (GameObject item in lootDrop)
+            Instantiate(item, transform.position, Quaternion.identity);
     }
 }

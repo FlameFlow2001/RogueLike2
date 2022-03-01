@@ -75,6 +75,7 @@ GameObject:
   - component: {fileID: 8633615499510315530}
   - component: {fileID: 3584905125596029729}
   - component: {fileID: 1431197399}
+  - component: {fileID: 1871555311}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -244,8 +245,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
-  health: 100
-  coins: 0
+  health: 80
+  coins: 3
+--- !u!114 &1871555311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2447510168015697216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93016bf09a4ac6943a60044411a24053, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damagePopupCanvasPref: {fileID: 9035262947476075793, guid: 6443b1e765f125f4499f850a187570ce,
+    type: 3}
+  healthBar: {fileID: 0}
+  healthBarSlider: {fileID: 0}
+  healthValue: {fileID: 0}
+  coinValue: {fileID: 0}
 --- !u!1 &6086915590585677814
 GameObject:
   m_ObjectHideFlags: 0
