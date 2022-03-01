@@ -3,11 +3,11 @@ using System.Collections;
 
 public class PlayerProjectileScript : MonoBehaviour
 {
-    public float minDamage;
-    public float maxDamage;
+    public int minDamage;
+    public int maxDamage;
     private float lifeTime = 2f;
     private Animator animator;
-
+    private Enemy enemy;
     public void Start()
     {
         animator = gameObject.GetComponent<Animator>();
@@ -19,7 +19,7 @@ public class PlayerProjectileScript : MonoBehaviour
         {
             if (collision.GetComponent<Enemy>() != null)
             {
-                float damage = Mathf.RoundToInt(Random.Range(minDamage, maxDamage));
+                int damage = Mathf.RoundToInt(Random.Range(minDamage, maxDamage));
                 collision.GetComponent<Enemy>().DealDamage(damage);
             }
             animator.Play("ProjectileDestroying");

@@ -3,7 +3,6 @@ using UnityEngine.UI;
 
 public class GameUI : MonoBehaviour
 {
-    private GameObject player;
     private PlayerStats playerStats;
     [SerializeField] private Slider healthSlider;
     [SerializeField] private Text healthValue;
@@ -11,8 +10,9 @@ public class GameUI : MonoBehaviour
 
     private void Start()
     {
-        player = GameObject.Find("Player");
-        playerStats = player.GetComponent<PlayerStats>();
+        playerStats = GameObject.Find("Player").GetComponent<PlayerStats>();
+        if (!playerStats)
+            Debug.Log("Player Stats are not set. Check if there is an object called \"Player\" with script \"PlayerStats\" in the scene");
     }
 
     

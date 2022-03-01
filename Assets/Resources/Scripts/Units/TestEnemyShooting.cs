@@ -4,8 +4,8 @@ using UnityEngine;
 public class TestEnemyShooting : EnemyAttack
 {
     public GameObject projectile;
-    public float minDamage;
-    public float maxDamage;
+    public int minDamage;
+    public int maxDamage;
     public float projectileForce;
     public float cooldown;
     public float shootingDelay;
@@ -28,7 +28,7 @@ public class TestEnemyShooting : EnemyAttack
             yield return new WaitForSeconds(shootingDelay);
             GameObject spell = Instantiate(projectile, transform.position, Quaternion.identity);
             spell.GetComponent<Rigidbody2D>().velocity = direction * projectileForce;
-            spell.GetComponent<TestEnemyProjectile>().damage = Mathf.Ceil(Random.Range(minDamage, maxDamage));
+            spell.GetComponent<TestEnemyProjectile>().damage = Random.Range(minDamage, maxDamage);
             StartCoroutine(ShootPlayer());
         }
 

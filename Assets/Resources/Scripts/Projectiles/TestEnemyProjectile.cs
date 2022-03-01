@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TestEnemyProjectile : MonoBehaviour
 {
-    public float damage;
+    public int damage;
     private GameObject player;
     private PlayerStats playerStats;
 

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1373301947096928180}
   - component: {fileID: 1373301947096928181}
   - component: {fileID: 1373301947096928182}
+  - component: {fileID: 7848823324730050989}
   m_Layer: 0
   m_Name: Dummy
   m_TagString: Enemy
@@ -123,13 +124,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe68772c6a596fa4391481c292b889d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damagePopupCanvasPref: {fileID: 9035262947476075793, guid: 6443b1e765f125f4499f850a187570ce,
-    type: 3}
-  healthBar: {fileID: 9037601308983124607}
-  healthBarSlider: {fileID: 8910477976540313443}
   maxHealth: 999999
   health: 999999
   lootDrop: {fileID: 0}
+--- !u!114 &7848823324730050989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373301947096928183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c973f5b51e3b8714a8ca5d60c3d128f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damagePopupCanvasPref: {fileID: 9035262947476075793, guid: 6443b1e765f125f4499f850a187570ce,
+    type: 3}
+  healthBar: {fileID: 9037601308983124607}
+  healthBarSlider: {fileID: 0}
 --- !u!1 &2594596181215408155
 GameObject:
   m_ObjectHideFlags: 0
