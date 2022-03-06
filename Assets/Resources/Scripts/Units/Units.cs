@@ -7,10 +7,14 @@ public class Units : MonoBehaviour
     public float maxHealth;
     public float health;
     public List<GameObject> lootDrop;
+    protected Animator animator;
     protected UnitUI UI;
     protected virtual void Start()
     {
         UI = gameObject.GetComponent<UnitUI>();
+        animator = gameObject.GetComponent<Animator>();
+        if (!animator)
+            Debug.Log("Animator on " + gameObject.name + " is not found");
         if (!UI)
             Debug.Log("UnitUI script on " + gameObject.name + " is not found");
         if (health <= 0 || health > maxHealth)
@@ -37,7 +41,9 @@ public class Units : MonoBehaviour
         if (health <= 0)
         {
             health = 0;
-            Destroy(gameObject);
+            gameObject.GetComponent<BoxCollider2D>().enabled = false;
+            animator.Play("Death");
+            Destroy(gameObject, animator.GetCurrentAnimatorClipInfo(0).Length / animator.speed);
             DropLoot();
         }
     }

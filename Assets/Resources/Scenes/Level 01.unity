@@ -17650,6 +17650,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4111763143208280823, guid: c5f0b354e0aff6c47b6f401200557216,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: dd7839fe8300ca844b72fa5bd994a3c0, type: 2}
     - target: {fileID: 7938487159366939424, guid: c5f0b354e0aff6c47b6f401200557216,
         type: 3}
       propertyPath: lootDrop.Array.size

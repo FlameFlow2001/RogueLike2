@@ -222,7 +222,7 @@ Animator:
   m_GameObject: {fileID: 4111763143208280811}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 581c1d29d928f4f4aa4a73e74cd04cad, type: 2}
+  m_Controller: {fileID: 9100000, guid: dd7839fe8300ca844b72fa5bd994a3c0, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -322,12 +322,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 2447510168015697223, guid: 2c65a9eb461f63b4f9b95b7295a54f24, type: 3}
-  projectile: {fileID: 6133201288956657439, guid: 9ba0809d98f322c4187cc4b6397d1f33,
-    type: 3}
   minDamage: 10
   maxDamage: 15
-  projectileForce: 1.4
   cooldown: 2
+  projectile: {fileID: 6133201288956657439, guid: 9ba0809d98f322c4187cc4b6397d1f33,
+    type: 3}
+  projectileForce: 1.4
   shootingDelay: 1
 --- !u!114 &7938487159366939424
 MonoBehaviour:
@@ -343,8 +343,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   health: 100
-  lootDrop: {fileID: 4981974337174985935, guid: e3cb058c28aaf29489b6064fd85be437,
-    type: 3}
+  lootDrop:
+  - {fileID: 2195538835919758103, guid: 1258afe2f55ada5448363f79bd664568, type: 3}
 --- !u!114 &7938487159366939426
 MonoBehaviour:
   m_ObjectHideFlags: 0
