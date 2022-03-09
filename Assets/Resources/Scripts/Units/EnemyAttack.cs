@@ -1,10 +1,8 @@
 using UnityEngine;
 
-public class EnemyAttack : MonoBehaviour
+public class EnemyAttack : AttackScript
 {
     protected Transform target;
-    public int minDamage;
-    public int maxDamage;
     public float cooldown;
 
     public virtual void Start()

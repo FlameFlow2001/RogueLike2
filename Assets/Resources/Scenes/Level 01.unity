@@ -17650,34 +17650,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4111763143208280823, guid: c5f0b354e0aff6c47b6f401200557216,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: dd7839fe8300ca844b72fa5bd994a3c0, type: 2}
-    - target: {fileID: 7938487159366939424, guid: c5f0b354e0aff6c47b6f401200557216,
-        type: 3}
-      propertyPath: lootDrop.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7938487159366939424, guid: c5f0b354e0aff6c47b6f401200557216,
-        type: 3}
-      propertyPath: lootDrop.Array.data[0]
-      value: 
-      objectReference: {fileID: 2195538835919758103, guid: 1258afe2f55ada5448363f79bd664568,
-        type: 3}
-    - target: {fileID: 7938487159366939424, guid: c5f0b354e0aff6c47b6f401200557216,
-        type: 3}
-      propertyPath: lootDrop.Array.data[1]
-      value: 
-      objectReference: {fileID: 4981974337174985935, guid: e3cb058c28aaf29489b6064fd85be437,
-        type: 3}
-    - target: {fileID: 7938487159366939424, guid: c5f0b354e0aff6c47b6f401200557216,
-        type: 3}
-      propertyPath: lootDrop.Array.data[2]
-      value: 
-      objectReference: {fileID: 7484195426878168251, guid: 853e9cf7eae7a084782e3a82430b107e,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c5f0b354e0aff6c47b6f401200557216, type: 3}
 --- !u!1001 &6978303612900469321

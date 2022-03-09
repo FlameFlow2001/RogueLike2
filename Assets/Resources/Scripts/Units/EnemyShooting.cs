@@ -6,6 +6,8 @@ public class EnemyShooting : EnemyAttack
     public GameObject projectile;
     public float projectileForce;
     public float shootingDelay;
+    public int minDamage;
+    public int maxDamage;
 
     public override void Start()
     {

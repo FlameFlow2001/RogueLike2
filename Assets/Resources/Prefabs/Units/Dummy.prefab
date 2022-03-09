@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 1373301947096928170}
   - component: {fileID: 1373301947096928180}
   - component: {fileID: 1373301947096928181}
-  - component: {fileID: 1373301947096928182}
   - component: {fileID: 7848823324730050989}
+  - component: {fileID: 946731513}
+  - component: {fileID: 946731508}
   m_Layer: 0
   m_Name: Dummy
   m_TagString: Enemy
@@ -112,21 +113,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.0729512, y: 0.216537}
   m_EdgeRadius: 0
---- !u!114 &1373301947096928182
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1373301947096928183}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe68772c6a596fa4391481c292b889d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 999999
-  health: 999999
-  lootDrop: {fileID: 0}
 --- !u!114 &7848823324730050989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -143,6 +129,40 @@ MonoBehaviour:
     type: 3}
   healthBar: {fileID: 9037601308983124607}
   healthBarSlider: {fileID: 0}
+--- !u!95 &946731513
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373301947096928183}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 249901b2090436b4e9d1578cb02ad442, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &946731508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373301947096928183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de4edd0bae44dac47b966b9d7d28fecf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  health: 100
+  lootDrop: []
 --- !u!1 &2594596181215408155
 GameObject:
   m_ObjectHideFlags: 0

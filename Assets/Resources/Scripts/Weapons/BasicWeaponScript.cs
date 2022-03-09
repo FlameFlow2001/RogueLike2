@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class BasicWeaponScript : MonoBehaviour
+public class BasicWeaponScript : AttackScript
 {
     protected Transform weaponOwnerTransform;
     protected Vector2 weaponOwnerPos;
@@ -26,11 +26,6 @@ public class BasicWeaponScript : MonoBehaviour
         }
         else
             return Vector2.zero;
-    }
-
-    protected virtual void Shoot()
-    {
-
     }
 
     private void Update()
