@@ -1,15 +1,16 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class WeaponPickup : PickableObjects
 {
-    public GameObject weaponPref;
-    private Transform weaponSlot;
-
-    protected override void PickingUp()
+    [SerializeField] private GameObject weaponPref;
+    [SerializeField] private Transform weaponSlot;
+    private void Start()
     {
-        weaponSlot = player.transform.Find("Weapon");
+        
+    }
+
+    protected override void PickingUpEffect()
+    {
         if (weaponSlot)
         {
             for (int i = 0; i < weaponSlot.childCount; i++)

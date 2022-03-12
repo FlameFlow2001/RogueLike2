@@ -72,7 +72,7 @@ public class Units : MonoBehaviour
     {
         health += heal;
         CheckOverheal();
-        UI.healthBarSlider.value = CalculateHealthPercentage();
+        UI.SetHealthUI(health, maxHealth);
     }
 
     public void DropLoot()

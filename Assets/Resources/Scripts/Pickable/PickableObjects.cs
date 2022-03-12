@@ -1,19 +1,21 @@
 using UnityEngine;
 
-public class PickableObjects : MonoBehaviour
+public class PickableObjects : TriggeredObjects
 {
     protected GameObject player;
     protected PlayerStats playerStats;
-    virtual protected void PickingUp() { }
+    virtual protected void PickingUpEffect() { }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    override protected void TriggerEffect(GameObject triggerer)
     {
-        if (other.tag == "Player")
+        if (triggerer.tag == "Player")
         {
-            player = other.gameObject;
+            player = triggerer;
             playerStats = player.GetComponent<PlayerStats>();
-            PickingUp();
+            PickingUpEffect();
             Destroy(gameObject);
         }
     }
+
+
 }

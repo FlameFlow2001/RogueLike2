@@ -1,16 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class Door : MonoBehaviour
+public class Door : TriggeredObjects
 {
     public Sprite openedDoorSprite;
     public Sprite closedDoorSprite;
-    public void OnTriggerEnter2D(Collider2D other)
+
+    override protected void TriggerEffect(GameObject triggerer)
     {
-        if (other.tag == "Player" || other.tag == "Enemy")
+        if (triggerer.tag == "Player" || triggerer.tag == "Enemy")
         {
-            //gameObject.GetComponent<BoxCollider2D>().enabled = false;
             gameObject.GetComponent<SpriteRenderer>().sprite = openedDoorSprite;
         }
     }

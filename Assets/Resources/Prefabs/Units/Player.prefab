@@ -245,8 +245,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
-  health: 80
-  coins: 3
+  health: 100
+  lootDrop: []
+  coins: 0
 --- !u!114 &1871555311
 MonoBehaviour:
   m_ObjectHideFlags: 0
