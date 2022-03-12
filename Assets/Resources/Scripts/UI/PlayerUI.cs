@@ -15,4 +15,20 @@ public class PlayerUI : UnitUI
     {
         coinValue.text = coinAmount.ToString();
     }
+
+    protected override bool UIIsSet()
+    {
+        bool UISetCorrectly = base.UIIsSet();
+        if (!healthValue)
+        {
+            Debug.Log("Health Value is not set on " + gameObject.name);
+            UISetCorrectly = false;
+        }
+        if (!coinValue)
+        {
+            Debug.Log("Coin Value is not set on " + gameObject.name);
+            UISetCorrectly = false;
+        }
+        return UISetCorrectly;
+    }
 }

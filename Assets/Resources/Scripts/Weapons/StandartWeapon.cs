@@ -2,12 +2,11 @@ using UnityEngine;
 
 public class StandartWeapon : BasicWeaponScript
 {
-    override protected void Shoot()
+    override protected void Attack()
     {
-        shootingDirection = ShootingDirectionCalculating();
         GameObject newProjectile = Instantiate(projectile, weaponOwnerPos, Quaternion.identity);
         Rigidbody2D rb = newProjectile.GetComponent<Rigidbody2D>();
-        rb.AddForce(shootingDirection * projectileForce);
+        rb.AddForce(attackingDirection * projectileForce);
     }
 
 }

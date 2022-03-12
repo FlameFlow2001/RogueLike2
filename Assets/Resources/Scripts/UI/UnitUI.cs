@@ -9,12 +9,8 @@ public class UnitUI : MonoBehaviour
 
     public void Start()
     {
-        if (healthBar)
+        if (UIIsSet())
             healthBarSlider = healthBar.GetComponent<Slider>();
-        else
-            Debug.Log("Health Bar is not set on " + gameObject.name);
-        if (!damagePopupCanvasPref)
-            Debug.Log("Damage Popup Canvas Prefab is not set on " + gameObject.name);
     }
     public virtual void SetHealthUI(float currentHealth, float maxHealth)
     {
@@ -22,4 +18,20 @@ public class UnitUI : MonoBehaviour
     }
 
     public virtual void SetCoinsUI(int coinAmount) { } //Necessary for PlayerUI script working
+
+    protected virtual bool UIIsSet() 
+    {
+        bool UISetCorrectly = true;
+        if (!healthBar)
+        {
+            Debug.Log("Health Bar is not set on " + gameObject.name);
+            UISetCorrectly = false;
+        }
+        if (!damagePopupCanvasPref)
+        {
+            Debug.Log("Damage Popup Canvas Prefab is not set on " + gameObject.name);
+            UISetCorrectly = false;
+        }
+        return UISetCorrectly;
+    }
 }

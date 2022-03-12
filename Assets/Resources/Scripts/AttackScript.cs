@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AttackScript : MonoBehaviour
 {
-    protected virtual void Shoot()
+    protected virtual void Attack()
     {
 
     }

@@ -5,14 +5,14 @@ public class BasicWeaponScript : AttackScript
     protected Transform weaponOwnerTransform;
     protected Vector2 weaponOwnerPos;
     public GameObject projectile;
-    protected Vector2 shootingDirection;
+    protected Vector2 attackingDirection;
     public float projectileForce = 0.1f;
 
     private void Start()
     {
         weaponOwnerTransform = GetComponentInParent<Transform>().parent;
     }
-    protected Vector2 ShootingDirectionCalculating()
+    protected Vector2 AttackingDirectionCalculating()
     {
         if (weaponOwnerTransform != null)
         {
@@ -31,6 +31,9 @@ public class BasicWeaponScript : AttackScript
     private void Update()
     {
         if (Input.GetMouseButtonDown(1))
-            Shoot();
+        {
+            attackingDirection = AttackingDirectionCalculating();
+            Attack();
+        }        
     }
 }
