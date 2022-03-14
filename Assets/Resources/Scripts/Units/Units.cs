@@ -40,10 +40,7 @@ public class Units : MonoBehaviour
     {
         if (health <= 0)
         {
-            health = 0;
-            gameObject.GetComponent<BoxCollider2D>().enabled = false;
-            animator.Play("Death");
-            Destroy(gameObject, animator.GetCurrentAnimatorClipInfo(0).Length / animator.speed);
+            animator.SetTrigger("isDead");
             DropLoot();
         }
     }
@@ -62,10 +59,7 @@ public class Units : MonoBehaviour
         health -= damage;
         UI.SetHealthUI(health, maxHealth);
         CheckDeath();
-        if (UI.damagePopupCanvasPref != null)
-        {
-            CreateDamagePopup(damage);
-        }
+        CreateDamagePopup(damage);
     }
 
     public void HealCharacter(int heal)

@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float speed;
-    public float dashRange = 3;
+    public float dashRange = 0.3f;
     private Vector2 direction;
     private Animator animator;
     private bool areTwoKeysPressed;

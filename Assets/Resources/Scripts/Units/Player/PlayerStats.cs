@@ -7,6 +7,7 @@ public class PlayerStats : Units
     protected override void Start()
     {
         UI = gameObject.GetComponent<PlayerUI>();
+        animator = gameObject.GetComponent<Animator>();
         if (!UI)
             Debug.Log("PlayerUI script on " + gameObject.name + " is not found");
         if (health <= 0 || health > maxHealth)

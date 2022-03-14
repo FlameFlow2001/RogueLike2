@@ -12,9 +12,10 @@ public class UnitUI : MonoBehaviour
         if (UIIsSet())
             healthBarSlider = healthBar.GetComponent<Slider>();
     }
-    public virtual void SetHealthUI(float currentHealth, float maxHealth)
+    public virtual void SetHealthUI(float health, float maxHealth)
     {
-        healthBarSlider.value = currentHealth / maxHealth;
+        if (healthBarSlider)
+            healthBarSlider.value = health / maxHealth;
     }
 
     public virtual void SetCoinsUI(int coinAmount) { } //Necessary for PlayerUI script working
