@@ -3,32 +3,59 @@ using UnityEngine.UI;
 
 public class PlayerUI : UnitUI
 {
-    public Text healthValue;
-    public Text coinValue;
-    public override void SetHealthUI(float currentHealth, float maxHealth)
+    [SerializeField] protected GameObject manaBar;
+    [SerializeField] protected Text manaValue;
+    [SerializeField] protected Text healthValue;
+    [SerializeField] protected Text coinValue;
+    protected Slider manaBarSlider;
+
+    public override void Start()
     {
-        healthBarSlider.value = currentHealth / maxHealth;
-        healthValue.text = currentHealth.ToString() + "/" + maxHealth.ToString();
+        if (ScriptIsSet())
+        {
+            healthBarSlider = healthBar.GetComponent<Slider>();
+            manaBarSlider = manaBar.GetComponent<Slider>();
+        }     
+    }
+    public override void SetHealthUI(float health, float maxHealth)
+    {
+        healthBarSlider.value = health / maxHealth;
+        healthValue.text = health.ToString() + "/" + maxHealth.ToString();
     }
 
+    public override void SetManaUI(float mana, float maxMana)
+    {
+        manaBarSlider.value = mana / maxMana;
+        manaValue.text = mana.ToString() + "/" + maxMana.ToString();
+    }
     public override void SetCoinsUI(int coinAmount)
     {
         coinValue.text = coinAmount.ToString();
     }
 
-    protected override bool UIIsSet()
+    protected override bool ScriptIsSet()
     {
-        bool UISetCorrectly = base.UIIsSet();
+        bool scriptSetCorrectly = base.ScriptIsSet();
         if (!healthValue)
         {
-            Debug.Log("Health Value is not set on " + gameObject.name);
-            UISetCorrectly = false;
+            Debug.Log("Health value is not set on " + gameObject.name);
+            scriptSetCorrectly = false;
         }
         if (!coinValue)
         {
-            Debug.Log("Coin Value is not set on " + gameObject.name);
-            UISetCorrectly = false;
+            Debug.Log("Coin value is not set on " + gameObject.name);
+            scriptSetCorrectly = false;
         }
-        return UISetCorrectly;
+        if (!manaBar)
+        {
+            Debug.Log("Mana bar is not set on " + gameObject.name);
+            scriptSetCorrectly = false;
+        }
+        if (!manaValue)
+        {
+            Debug.Log("Mana value is not set on " + gameObject.name);
+            scriptSetCorrectly = false;
+        }
+        return scriptSetCorrectly;
     }
 }

@@ -2,17 +2,19 @@ using UnityEngine;
 public class PlayerStats : Units
 {
     
-    public int coins;
+    protected int coins;
+    public float mana;
+    public float maxMana;
 
     protected override void Start()
     {
         UI = gameObject.GetComponent<PlayerUI>();
         animator = gameObject.GetComponent<Animator>();
-        if (!UI)
-            Debug.Log("PlayerUI script on " + gameObject.name + " is not found");
+        ScriptIsSet();
         if (health <= 0 || health > maxHealth)
             health = maxHealth;
         UI.SetHealthUI(health, maxHealth);
+        UI.SetManaUI(mana, maxMana);
         CheckDeath();
     }
 
@@ -25,5 +27,21 @@ public class PlayerStats : Units
     {
         coins += amount;
         UI.SetCoinsUI(amount);
+    }
+
+    protected override bool ScriptIsSet()
+    {
+        bool scriptSetCorrectly = true;
+        if (!animator)
+        {
+            Debug.Log("Animator is not found on " + gameObject.name);
+            scriptSetCorrectly = false;
+        }
+        if (!UI)
+        {
+            Debug.Log("PlayerUI script is not found on " + gameObject.name);
+            scriptSetCorrectly = false;
+        }
+        return scriptSetCorrectly;
     }
 }

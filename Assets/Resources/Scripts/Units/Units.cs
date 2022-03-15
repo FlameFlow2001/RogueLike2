@@ -13,10 +13,7 @@ public class Units : MonoBehaviour
     {
         UI = gameObject.GetComponent<UnitUI>();
         animator = gameObject.GetComponent<Animator>();
-        if (!animator)
-            Debug.Log("Animator on " + gameObject.name + " is not found");
-        if (!UI)
-            Debug.Log("UnitUI script on " + gameObject.name + " is not found");
+        ScriptIsSet();
         if (health <= 0 || health > maxHealth)
             health = maxHealth;
         UI.SetHealthUI(health, maxHealth);
@@ -73,5 +70,21 @@ public class Units : MonoBehaviour
     {
         foreach (GameObject item in lootDrop)
             Instantiate(item, transform.position, Quaternion.identity);
+    }
+
+    protected virtual bool ScriptIsSet()
+    {
+        bool scriptSetCorrectly = true;
+        if (!animator)
+        {
+            Debug.Log("Animator is not found on " + gameObject.name);
+            scriptSetCorrectly = false;
+        }
+        if (!UI)
+        {
+            Debug.Log("UnitUI script is not found on " + gameObject.name);
+            scriptSetCorrectly = false;
+        }
+        return scriptSetCorrectly;
     }
 }
