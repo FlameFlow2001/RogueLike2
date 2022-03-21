@@ -7,7 +7,7 @@ public class BasicWeaponScript : AttackScript
     public GameObject projectile;
     protected Vector2 attackingDirection;
     public float projectileForce = 0.1f;
-
+    public Cooldown cooldown;
     private void Start()
     {
         weaponOwnerTransform = GetComponentInParent<Transform>().parent;
@@ -30,10 +30,11 @@ public class BasicWeaponScript : AttackScript
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetMouseButton(1) && cooldown.IsCompleted)
         {
             attackingDirection = AttackingDirectionCalculating();
             Attack();
+            cooldown.StartCooldown();
         }        
     }
 }

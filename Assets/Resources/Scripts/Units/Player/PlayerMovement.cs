@@ -1,11 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float speed;
-    public float dashRange = 0.3f;
+    [SerializeField]private float speed;
+    [SerializeField]private float dashRange = 0.3f;
     private Vector2 direction;
     private Animator animator;
     private bool areTwoKeysPressed;
