@@ -8825,6 +8825,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1431197399, guid: 2c65a9eb461f63b4f9b95b7295a54f24, type: 3}
+      propertyPath: manaRegenPerSec
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1871555311, guid: 2c65a9eb461f63b4f9b95b7295a54f24, type: 3}
       propertyPath: manaBar
       value: 
