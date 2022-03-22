@@ -5,7 +5,7 @@ public class PlayerStats : Units
     protected int coins;
     public float mana;
     public float maxMana;
-
+    public float manaRegenPerSec;
     protected override void Start()
     {
         UI = gameObject.GetComponent<PlayerUI>();
@@ -18,6 +18,14 @@ public class PlayerStats : Units
         CheckDeath();
     }
 
+    public void Update()
+    {
+        if (mana < maxMana)
+        {
+            mana += manaRegenPerSec * Time.deltaTime;
+            UI.SetManaUI(mana, maxMana);
+        }
+    }
     private void Awake()
     {
         DontDestroyOnLoad(this);

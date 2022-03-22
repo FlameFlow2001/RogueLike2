@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -26,7 +27,7 @@ public class PlayerUI : UnitUI
     public override void SetManaUI(float mana, float maxMana)
     {
         manaBarSlider.value = mana / maxMana;
-        manaValue.text = mana.ToString() + "/" + maxMana.ToString();
+        manaValue.text = Math.Round(mana).ToString() + "/" + Math.Round(maxMana).ToString();
     }
     public override void SetCoinsUI(int coinAmount)
     {
