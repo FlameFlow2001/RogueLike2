@@ -3,6 +3,7 @@ using UnityEngine.UI;
 
 public class UnitUI : MonoBehaviour
 {
+    public UnitComponent unitComponent;
     public GameObject damagePopupCanvasPref;
     public GameObject healthBar;
     protected Slider healthBarSlider;

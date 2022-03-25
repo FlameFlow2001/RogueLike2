@@ -1,20 +1,16 @@
 using UnityEngine;
-public class PlayerStats : Units
+public class PlayerStats : UnitStats
 {
-    
     protected int coins;
     public float mana;
     public float maxMana;
     public float manaRegenPerSec;
     protected override void Start()
     {
-        UI = gameObject.GetComponent<PlayerUI>();
-        animator = gameObject.GetComponent<Animator>();
-        ScriptIsSet();
         if (health <= 0 || health > maxHealth)
             health = maxHealth;
-        UI.SetHealthUI(health, maxHealth);
-        UI.SetManaUI(mana, maxMana);
+        unitComponent.unitUI.SetHealthUI(health, maxHealth);
+        unitComponent.unitUI.SetManaUI(mana, maxMana);
         CheckDeath();
     }
 
@@ -23,7 +19,7 @@ public class PlayerStats : Units
         if (mana < maxMana)
         {
             mana += manaRegenPerSec * Time.deltaTime;
-            UI.SetManaUI(mana, maxMana);
+            unitComponent.unitUI.SetManaUI(mana, maxMana);
         }
     }
     private void Awake()
@@ -34,22 +30,7 @@ public class PlayerStats : Units
     public void AddCoins(int amount)
     {
         coins += amount;
-        UI.SetCoinsUI(amount);
+        unitComponent.unitUI.SetCoinsUI(amount);
     }
 
-    protected override bool ScriptIsSet()
-    {
-        bool scriptSetCorrectly = true;
-        if (!animator)
-        {
-            Debug.Log("Animator is not found on " + gameObject.name);
-            scriptSetCorrectly = false;
-        }
-        if (!UI)
-        {
-            Debug.Log("PlayerUI script is not found on " + gameObject.name);
-            scriptSetCorrectly = false;
-        }
-        return scriptSetCorrectly;
-    }
 }

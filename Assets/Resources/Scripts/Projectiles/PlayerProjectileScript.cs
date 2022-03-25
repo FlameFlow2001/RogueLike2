@@ -7,7 +7,7 @@ public class PlayerProjectileScript : MonoBehaviour
     public int maxDamage;
     private float lifeTime = 2f;
     private Animator animator;
-    private Enemy enemy;
+    private EnemyStats enemy;
     public void Start()
     {
         animator = gameObject.GetComponent<Animator>();
@@ -17,10 +17,11 @@ public class PlayerProjectileScript : MonoBehaviour
     {
         if (collision.tag != "Player" && collision.tag != "Pickable" && collision.tag != "Projectile")
         {
-            if (collision.GetComponent<Enemy>() != null)
+            if (collision.GetComponent<EnemyStats>() != null)
             {
                 int damage = Mathf.RoundToInt(Random.Range(minDamage, maxDamage));
-                collision.GetComponent<Enemy>().DealDamage(damage);
+                enemy = collision.GetComponent<EnemyStats>();
+                enemy.DealDamage(damage);
             }
             animator.Play("ProjectileDestroying");
             Destroy(gameObject, animator.GetCurrentAnimatorStateInfo(0).length / animator.speed);

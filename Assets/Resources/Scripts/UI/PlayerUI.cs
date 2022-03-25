@@ -9,7 +9,7 @@ public class PlayerUI : UnitUI
     [SerializeField] protected Text healthValue;
     [SerializeField] protected Text coinValue;
     protected Slider manaBarSlider;
-
+    
     public override void Start()
     {
         if (ScriptIsSet())

@@ -2,27 +2,24 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
 
-public class Units : MonoBehaviour
+public class UnitStats : MonoBehaviour
 {
+    public UnitComponent unitComponent;
     public float maxHealth;
     public float health;
     public List<GameObject> lootDrop;
-    protected Animator animator;
-    protected UnitUI UI;
     protected virtual void Start()
     {
-        UI = gameObject.GetComponent<UnitUI>();
-        animator = gameObject.GetComponent<Animator>();
-        ScriptIsSet();
+
         if (health <= 0 || health > maxHealth)
             health = maxHealth;
-        UI.SetHealthUI(health, maxHealth);
+        unitComponent.unitUI.SetHealthUI(health, maxHealth);
         CheckDeath();
     }
 
     private void CreateDamagePopup(float takenDamage)
     {
-        GameObject damagePopupCanvas = Instantiate(UI.damagePopupCanvasPref, transform.position, Quaternion.identity, transform);
+        GameObject damagePopupCanvas = Instantiate(unitComponent.unitUI.damagePopupCanvasPref, transform.position, Quaternion.identity, transform);
         damagePopupCanvas.GetComponentInChildren<Text>().text = takenDamage.ToString();
         Vector3 randomPosOffset = new Vector3(Random.Range(-0.1f, 0.1f), Random.Range(-0.1f, 0.1f), 0f);
         damagePopupCanvas.transform.position += randomPosOffset;
@@ -37,7 +34,7 @@ public class Units : MonoBehaviour
     {
         if (health <= 0)
         {
-            animator.SetTrigger("isDead");
+            unitComponent.animator.SetTrigger("isDead");
             DropLoot();
         }
     }
@@ -52,9 +49,9 @@ public class Units : MonoBehaviour
 
     public void DealDamage(int damage)
     {
-        UI.healthBar.SetActive(true);
+        unitComponent.unitUI.healthBar.SetActive(true);
         health -= damage;
-        UI.SetHealthUI(health, maxHealth);
+        unitComponent.unitUI.SetHealthUI(health, maxHealth);
         CheckDeath();
         CreateDamagePopup(damage);
     }
@@ -63,7 +60,7 @@ public class Units : MonoBehaviour
     {
         health += heal;
         CheckOverheal();
-        UI.SetHealthUI(health, maxHealth);
+        unitComponent.unitUI.SetHealthUI(health, maxHealth);
     }
 
     public void DropLoot()
@@ -72,19 +69,4 @@ public class Units : MonoBehaviour
             Instantiate(item, transform.position, Quaternion.identity);
     }
 
-    protected virtual bool ScriptIsSet()
-    {
-        bool scriptSetCorrectly = true;
-        if (!animator)
-        {
-            Debug.Log("Animator is not found on " + gameObject.name);
-            scriptSetCorrectly = false;
-        }
-        if (!UI)
-        {
-            Debug.Log("UnitUI script is not found on " + gameObject.name);
-            scriptSetCorrectly = false;
-        }
-        return scriptSetCorrectly;
-    }
 }

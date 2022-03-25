@@ -2,23 +2,18 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public PlayerComponent playerComponent;
     [SerializeField]private float speed;
     [SerializeField]private float dashRange = 0.3f;
     private Vector2 direction;
-    private Animator animator;
     private bool areTwoKeysPressed;
     private enum Facing {UP, DOWN, LEFT, RIGHT};
     private Facing facingDir = Facing.DOWN;
-    private void Start()
-    {
-        animator = GetComponent<Animator>();
-    }
     void Update()
     {
         TakeInput();
         Move();
     }
-
     public void Move()
     {
         transform.Translate(direction * speed * Time.deltaTime);
@@ -28,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            animator.SetLayerWeight(1, 0);
+            playerComponent.animator.SetLayerWeight(1, 0);
         }
     }
 
@@ -87,12 +82,12 @@ public class PlayerMovement : MonoBehaviour
         }
         areTwoKeysPressed = direction.x != 0 && direction.y != 0;
     }
-
     private void SetAnimatorMovement(Vector2 direction)
     {
-        animator.SetLayerWeight(1, 1);
-        animator.SetFloat("xDir", direction.x);
-        animator.SetFloat("yDir", direction.y);
-        animator.SetBool("twoDirKeysPressed", areTwoKeysPressed);
+        playerComponent.animator.SetLayerWeight(1, 1);
+        playerComponent.animator.SetFloat("xDir", direction.x);
+        playerComponent.animator.SetFloat("yDir", direction.y);
+        playerComponent.animator.SetBool("twoDirKeysPressed", areTwoKeysPressed);
     }
+
 }

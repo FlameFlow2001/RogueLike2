@@ -4,10 +4,10 @@ public class BasicWeaponScript : AttackScript
 {
     protected Transform weaponOwnerTransform;
     protected Vector2 weaponOwnerPos;
-    public GameObject projectile;
     protected Vector2 attackingDirection;
-    public float projectileForce = 0.1f;
-    public Cooldown cooldown;
+    [SerializeField] protected GameObject projectile;
+    [SerializeField] protected float projectileForce = 0.1f;
+    [SerializeField] private Cooldown cooldown;
     private void Start()
     {
         weaponOwnerTransform = GetComponentInParent<Transform>().parent;
@@ -28,7 +28,7 @@ public class BasicWeaponScript : AttackScript
             return Vector2.zero;
     }
 
-    private void Update()
+    public void Update()
     {
         if (Input.GetMouseButton(1) && cooldown.IsCompleted)
         {
@@ -37,4 +37,5 @@ public class BasicWeaponScript : AttackScript
             cooldown.StartCooldown();
         }        
     }
+
 }

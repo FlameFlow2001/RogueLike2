@@ -1,4 +1,4 @@
-public class RedImp : Enemy
+public class RedImp : EnemyStats
 {
 
 }
