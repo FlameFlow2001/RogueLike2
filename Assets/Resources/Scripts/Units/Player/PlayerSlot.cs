@@ -9,7 +9,12 @@ public class PlayerSlot : MonoBehaviour
     public Skill secondSkill;
     public Skill thirdSkill;
     public Skill ultimate;
-
+    private bool attackButtonIsHeld;
+    private void Update()
+    {
+        if (attackButtonIsHeld)
+            weapon.TryToAttack(playerComponents.transform.position, UsingDirectionCalculating());
+    }
     protected Vector2 UsingDirectionCalculating()
     {
         Vector2 mousePos2D = Input.mousePosition;
@@ -24,7 +29,9 @@ public class PlayerSlot : MonoBehaviour
     public void UseWeapon(InputAction.CallbackContext context)
     {
         if (context.performed)
-            weapon.TryToAttack(playerComponents.transform.position, UsingDirectionCalculating());
+            attackButtonIsHeld = true;
+        if (context.canceled)
+            attackButtonIsHeld = false;
             
     }
 
