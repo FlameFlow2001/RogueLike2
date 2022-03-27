@@ -24,7 +24,7 @@ public class PlayerProjectileScript : MonoBehaviour
                 enemy.DealDamage(damage);
             }
             animator.Play("ProjectileDestroying");
-            Destroy(gameObject, animator.GetCurrentAnimatorStateInfo(0).length / animator.speed);
+            //Destroy(gameObject, animator.GetCurrentAnimatorStateInfo(0).length / animator.speed);
         }
 
         IEnumerator DestroyProjectile()

@@ -3,7 +3,7 @@ using UnityEngine;
 public class EnemyAttack : AttackScript
 {
     protected Transform target;
-    public float cooldown;
+    [SerializeField] protected float cooldown;
 
     public virtual void Start()
     {

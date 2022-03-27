@@ -43,6 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3ac58379d8a865478be3e52164a4402, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerPos: {x: 0, y: 0}
   projectile: {fileID: 9158492845282515802, guid: e77107071f02aab449ac233dea3a8ea0,
     type: 3}
   projectileForce: 0.015

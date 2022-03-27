@@ -1,10 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class AttackScript : MonoBehaviour
 {
-    protected virtual void Attack()
+    public virtual void Attack(Vector2 ownerPos, Vector2 attackDirection)
     {
 
     }

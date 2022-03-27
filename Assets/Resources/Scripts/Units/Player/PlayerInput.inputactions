@@ -2,13 +2,13 @@
     "name": "PlayerInput",
     "maps": [
         {
-            "name": "Player",
-            "id": "7a2a7207-3c9a-4602-8bab-3c063cf7f106",
+            "name": "PlayerMovement",
+            "id": "e99d3f8a-e6f4-43f4-8602-e645b2f038f6",
             "actions": [
                 {
-                    "name": "Move",
+                    "name": "Movement",
                     "type": "Value",
-                    "id": "37223a1e-a9e0-4856-b9e5-b338c065b48c",
+                    "id": "b6d5e088-2483-4e7c-bdc9-be1103d602d2",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
@@ -17,52 +17,52 @@
                 {
                     "name": "Dash",
                     "type": "Button",
-                    "id": "75440bb5-4ae0-4110-a37c-6e7b7fa6f126",
+                    "id": "5d48a90e-2dde-445d-8aaa-ab5718ab79ca",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
                 },
                 {
-                    "name": "1st Skill",
+                    "name": "Use Weapon",
                     "type": "Button",
-                    "id": "e117dec4-b2d4-453a-a324-2e74bd1a5f20",
+                    "id": "62d649ca-f797-416e-b1bb-8a8b7807bdf8",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
                 },
                 {
-                    "name": "2nd Skill",
+                    "name": "Use First Skill",
                     "type": "Button",
-                    "id": "587b4149-62a8-4e97-9dc6-200925a231b2",
+                    "id": "f836abc6-0d5c-4888-9327-e1722a68b7a9",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
                 },
                 {
-                    "name": "3rd Skill",
+                    "name": "Use Second Skill",
                     "type": "Button",
-                    "id": "db2326ee-45a7-4e32-a0fb-556d3f2680dd",
+                    "id": "777f4911-d189-44a4-8412-608cba922077",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Ultimate",
+                    "name": "Use Third Skill",
                     "type": "Button",
-                    "id": "9aa71954-d834-47c6-b1d7-818c08cd3b3b",
+                    "id": "7924ebeb-cd9a-449e-9904-4bdd149cc4cb",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Attack",
+                    "name": "Use Ultimate",
                     "type": "Button",
-                    "id": "e10494de-8799-4375-b1c2-1aaf1404fbf0",
+                    "id": "5762b3eb-981f-4acd-97d6-b767dc0f94f2",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -72,122 +72,122 @@
             "bindings": [
                 {
                     "name": "WASD",
-                    "id": "a5da0546-bc02-40a3-8598-31d64ff4e86f",
+                    "id": "bfc2fc0d-d6b0-4b15-b45c-eeddda49abd3",
                     "path": "2DVector",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "Movement",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "up",
-                    "id": "e134c1df-dc10-45bd-bf6c-801623b73bab",
+                    "id": "a019a9fd-0706-4510-b3e8-96a8015867ad",
                     "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Mouse and Keyboard",
-                    "action": "Move",
+                    "groups": "",
+                    "action": "Movement",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
                     "name": "down",
-                    "id": "34b748ac-b517-459e-9630-05412f314d06",
+                    "id": "1fdce023-b4d2-4f57-9d6a-f04bd92ab59e",
                     "path": "<Keyboard>/s",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Mouse and Keyboard",
-                    "action": "Move",
+                    "groups": "",
+                    "action": "Movement",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
                     "name": "left",
-                    "id": "6fdcd407-704f-41e4-9693-79e40347cf14",
+                    "id": "0408f09f-4a08-4645-bcda-ec6458382be3",
                     "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Mouse and Keyboard",
-                    "action": "Move",
+                    "groups": "",
+                    "action": "Movement",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
                     "name": "right",
-                    "id": "fe099e2d-3185-492e-9b5a-94f7885e8b38",
+                    "id": "10c49a43-dbc6-4dc4-b5e0-ef13e4549e6a",
                     "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Mouse and Keyboard",
-                    "action": "Move",
+                    "groups": "",
+                    "action": "Movement",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
                     "name": "",
-                    "id": "9fa55e40-7bcf-4745-bf31-b3a37191174d",
+                    "id": "a889b1f2-fd27-420b-8991-7a6fab65811b",
                     "path": "<Keyboard>/leftShift",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Mouse and Keyboard",
+                    "groups": "Keyboard and Mouse",
                     "action": "Dash",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "11c6c3b7-7be5-4e54-a64b-1048edb3410a",
-                    "path": "<Keyboard>/q",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Mouse and Keyboard",
-                    "action": "1st Skill",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "2f1f2e87-49d6-4492-90bf-13ab506bc7c2",
-                    "path": "<Keyboard>/e",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Mouse and Keyboard",
-                    "action": "2nd Skill",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "90224146-9eb9-4517-9256-0f0756e7ec0b",
-                    "path": "<Keyboard>/r",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Mouse and Keyboard",
-                    "action": "3rd Skill",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "5db284d1-4347-4965-99bb-df271b3d88be",
-                    "path": "<Keyboard>/space",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Mouse and Keyboard",
-                    "action": "Ultimate",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "cb32c507-9b5a-45f0-b3bd-fe2999a2f19d",
+                    "id": "1de98f6b-bcb4-4c2f-9d4e-448b3e0c9ea6",
                     "path": "<Mouse>/rightButton",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
-                    "action": "Attack",
+                    "groups": "Keyboard and Mouse",
+                    "action": "Use Weapon",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b5a647eb-e1c2-47a0-866f-491c0034869c",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard and Mouse",
+                    "action": "Use First Skill",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b4ee072d-f901-4663-a98e-948f31401b00",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard and Mouse",
+                    "action": "Use Second Skill",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "add0eebf-ebc5-4588-9854-c248bb3bee7a",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard and Mouse",
+                    "action": "Use Third Skill",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4da0f78a-fa64-46bb-8079-5b4d6c409880",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard and Mouse",
+                    "action": "Use Ultimate",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -196,16 +196,16 @@
     ],
     "controlSchemes": [
         {
-            "name": "Mouse and Keyboard",
-            "bindingGroup": "Mouse and Keyboard",
+            "name": "Keyboard and Mouse",
+            "bindingGroup": "Keyboard and Mouse",
             "devices": [
                 {
-                    "devicePath": "<Mouse>",
+                    "devicePath": "<Keyboard>",
                     "isOptional": false,
                     "isOR": false
                 },
                 {
-                    "devicePath": "<Keyboard>",
+                    "devicePath": "<Mouse>",
                     "isOptional": false,
                     "isOR": false
                 }

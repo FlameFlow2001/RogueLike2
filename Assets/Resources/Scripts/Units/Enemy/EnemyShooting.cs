@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 public class EnemyShooting : EnemyAttack
 {
@@ -12,7 +11,6 @@ public class EnemyShooting : EnemyAttack
     public override void Start()
     {
         base.Start();
-        target = GameObject.Find("Player").transform;
         StartCoroutine(ShootPlayer());
     }
     IEnumerator ShootPlayer()
@@ -22,9 +20,9 @@ public class EnemyShooting : EnemyAttack
         {
             Vector2 attackDirection = GetAttackDirection(transform.position, target.position);
             yield return new WaitForSeconds(shootingDelay);
-            GameObject spell = Instantiate(projectile, transform.position, Quaternion.identity);
-            spell.GetComponent<Rigidbody2D>().velocity = attackDirection * projectileForce;
-            spell.GetComponent<TestEnemyProjectile>().damage = Mathf.CeilToInt(Random.Range(minDamage, maxDamage));
+            GameObject enemyProjectile = Instantiate(projectile, transform.position, Quaternion.identity);
+            enemyProjectile.GetComponent<Rigidbody2D>().velocity = attackDirection * projectileForce;
+            enemyProjectile.GetComponent<TestEnemyProjectile>().damage = Mathf.CeilToInt(Random.Range(minDamage, maxDamage));
             StartCoroutine(ShootPlayer());
         }
 

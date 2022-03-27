@@ -2537,12 +2537,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f24124cc8906966428db163bdc14b031, type: 3}
---- !u!4 &299018413 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 581553548894979599, guid: 2c65a9eb461f63b4f9b95b7295a54f24,
-    type: 3}
-  m_PrefabInstance: {fileID: 960316752}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &304459898
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9021,6 +9015,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7217991009214159175, guid: 2c65a9eb461f63b4f9b95b7295a54f24,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c65a9eb461f63b4f9b95b7295a54f24, type: 3}
 --- !u!1 &961833309
@@ -10273,7 +10272,7 @@ PrefabInstance:
         type: 3}
       propertyPath: weaponSlot
       value: 
-      objectReference: {fileID: 299018413}
+      objectReference: {fileID: 0}
     - target: {fileID: 403778430503394783, guid: 853e9cf7eae7a084782e3a82430b107e,
         type: 3}
       propertyPath: m_RootOrder
@@ -10519,7 +10518,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1184564958}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
@@ -10548,10 +10547,10 @@ MonoBehaviour:
     m_ActionName: Player/Dash[/Keyboard/leftShift]
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1184564962}
-        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
-        m_MethodName: Testing
-        m_Mode: 1
+      - m_Target: {fileID: 1184564967}
+        m_TargetAssemblyTypeName: PlayerSlot, Assembly-CSharp
+        m_MethodName: UseFirstSkill
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -10563,26 +10562,62 @@ MonoBehaviour:
     m_ActionId: e117dec4-b2d4-453a-a324-2e74bd1a5f20
     m_ActionName: Player/1st Skill[/Keyboard/q]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1184564967}
+        m_TargetAssemblyTypeName: PlayerSlot, Assembly-CSharp
+        m_MethodName: UseSecondSkill
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 587b4149-62a8-4e97-9dc6-200925a231b2
     m_ActionName: Player/2nd Skill[/Keyboard/e]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1184564967}
+        m_TargetAssemblyTypeName: PlayerSlot, Assembly-CSharp
+        m_MethodName: UseThirdSkill
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: db2326ee-45a7-4e32-a0fb-556d3f2680dd
     m_ActionName: Player/3rd Skill[/Keyboard/r]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1184564967}
+        m_TargetAssemblyTypeName: PlayerSlot, Assembly-CSharp
+        m_MethodName: UseUltimate
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 9aa71954-d834-47c6-b1d7-818c08cd3b3b
     m_ActionName: Player/Ultimate[/Keyboard/space]
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1184564958}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 1184564967}
+        m_TargetAssemblyTypeName: PlayerSlot, Assembly-CSharp
+        m_MethodName: UseWeapon
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -10656,10 +10691,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerComponents: {fileID: 1184564968}
-  weapon: {fileID: 4535482690870502478, guid: 34a5db742677e774fb5feb2897a8abf6, type: 3}
+  weapon: {fileID: 2491142028613523515, guid: 2567d99412275664cb336b51e739632b, type: 3}
   firstSkill: {fileID: 0}
   secondSkill: {fileID: 0}
   thirdSkill: {fileID: 0}
+  ultimate: {fileID: 0}
 --- !u!114 &1184564968
 MonoBehaviour:
   m_ObjectHideFlags: 0
