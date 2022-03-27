@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class TestEnemyProjectile : MonoBehaviour
@@ -7,6 +5,7 @@ public class TestEnemyProjectile : MonoBehaviour
     public int damage;
     private GameObject player;
     private PlayerStats playerStats;
+    private float lifeTime = 5f;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -21,5 +20,9 @@ public class TestEnemyProjectile : MonoBehaviour
             Destroy(gameObject);
         }
     }
+    public void Start()
+    {
+        Destroy(gameObject, lifeTime);
+    }  
 }
 

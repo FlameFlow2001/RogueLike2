@@ -43,9 +43,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9345f8e7083ef2b4499b1f016457dda8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerPos: {x: 0, y: 0}
   projectile: {fileID: 9158492845282515802, guid: e77107071f02aab449ac233dea3a8ea0,
     type: 3}
   projectileForce: 0.015
   cooldown:
-    cooldown: 0.3
+    cooldown: 0.35
