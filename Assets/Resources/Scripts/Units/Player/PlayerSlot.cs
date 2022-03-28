@@ -3,17 +3,21 @@ using UnityEngine.InputSystem;
 
 public class PlayerSlot : MonoBehaviour
 {
-    public PlayerComponent playerComponents;
+    private PlayerComponent playerComponent;
     public BasicWeaponScript weapon;
     public Skill firstSkill;
     public Skill secondSkill;
     public Skill thirdSkill;
     public Skill ultimate;
     private bool attackButtonIsHeld;
+    private void Start()
+    {
+        playerComponent = gameObject.GetComponent<PlayerComponent>();
+    }
     private void Update()
     {
         if (attackButtonIsHeld)
-            weapon.TryToAttack(playerComponents.transform.position, UsingDirectionCalculating());
+            weapon.TryToAttack(playerComponent.transform.position, UsingDirectionCalculating());
     }
     protected Vector2 UsingDirectionCalculating()
     {
@@ -21,7 +25,7 @@ public class PlayerSlot : MonoBehaviour
         var screenToCameraDistance = Camera.main.nearClipPlane;
         var mousePosNearClipPlane = new Vector3(mousePos2D.x, mousePos2D.y, screenToCameraDistance);
         Vector2 worldPointPos = Camera.main.ScreenToWorldPoint(mousePosNearClipPlane);
-        Vector2 playerPos = playerComponents.transform.position;
+        Vector2 playerPos = playerComponent.transform.position;
         Vector2 calculatedShootingDirection = (worldPointPos - playerPos).normalized;
         return calculatedShootingDirection;
     }

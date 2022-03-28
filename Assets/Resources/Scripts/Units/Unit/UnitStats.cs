@@ -10,7 +10,6 @@ public class UnitStats : MonoBehaviour
     public List<GameObject> lootDrop;
     protected virtual void Start()
     {
-
         if (health <= 0 || health > maxHealth)
             health = maxHealth;
         unitComponent.unitUI.SetHealthUI(health, maxHealth);

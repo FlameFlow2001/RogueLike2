@@ -7,6 +7,7 @@ public class PlayerStats : UnitStats
     public float manaRegenPerSec;
     protected override void Start()
     {
+
         if (health <= 0 || health > maxHealth)
             health = maxHealth;
         unitComponent.unitUI.SetHealthUI(health, maxHealth);

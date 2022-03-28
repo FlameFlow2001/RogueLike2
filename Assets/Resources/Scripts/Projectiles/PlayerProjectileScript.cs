@@ -5,13 +5,12 @@ public class PlayerProjectileScript : MonoBehaviour
 {
     public int minDamage;
     public int maxDamage;
-    private float lifeTime = 2f;
+    private float lifeTime = 3f;
     private Animator animator;
     private EnemyStats enemy;
     public void Start()
     {
         animator = gameObject.GetComponent<Animator>();
-        animator.speed = 4;
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -24,14 +23,12 @@ public class PlayerProjectileScript : MonoBehaviour
                 enemy.DealDamage(damage);
             }
             animator.Play("ProjectileDestroying");
-            //Destroy(gameObject, animator.GetCurrentAnimatorStateInfo(0).length / animator.speed);
         }
 
         IEnumerator DestroyProjectile()
         {
             yield return new WaitForSeconds(lifeTime);
             animator.Play("ProjectileDestroying");
-            Destroy(gameObject, animator.GetCurrentAnimatorStateInfo(0).length / animator.speed);
         }
         StartCoroutine(DestroyProjectile());
     }
