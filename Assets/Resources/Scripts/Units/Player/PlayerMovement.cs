@@ -9,9 +9,6 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]private float dashRange = 0.3f;
     private Vector2 direction;
     private bool areTwoKeysPressed;
-    private enum Facing {UP, DOWN, LEFT, RIGHT};
-    private Facing facingDir = Facing.DOWN;
-
     private void Start()
     {
         playerComponent = gameObject.GetComponent<PlayerComponent>();
