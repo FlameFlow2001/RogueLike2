@@ -1,24 +1,20 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.UI;
 using TMPro;
+using UnityEngine.EventSystems;
 
 public class RebindButton : MonoBehaviour
 {
     [SerializeField] private InputActionReference inputActionRef;
-    [SerializeField] private PlayerComponent playerComponent;
     [SerializeField] private TMP_Text buttonText;
-    [SerializeField] private Button button;
-    private Color normalColor;
-    private Color pressedColor;
-    
-    
     private InputActionRebindingExtensions.RebindingOperation rebindingOperation;
     public void StartRebinding()
     {
         rebindingOperation = inputActionRef.action.PerformInteractiveRebinding()
+                    .WithCancelingThrough("<Keyboard>/escape")
                     .WithControlsExcluding("Mouse")
                     .OnMatchWaitForAnother(0.1f)
+                    .OnCancel(operation => FindObjectOfType<EventSystem>().SetSelectedGameObject(null))
                     .OnComplete(operation => RebindComplete())
                     .Start();
     }
@@ -29,6 +25,6 @@ public class RebindButton : MonoBehaviour
         buttonText.text = InputControlPath.ToHumanReadableString(inputActionRef.action.bindings[bindingIndex].effectivePath,
             InputControlPath.HumanReadableStringOptions.OmitDevice);
         rebindingOperation.Dispose();
-        button.Select();
+        FindObjectOfType<EventSystem>().SetSelectedGameObject(null);
     }
 }
