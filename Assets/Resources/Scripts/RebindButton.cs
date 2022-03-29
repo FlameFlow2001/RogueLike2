@@ -8,6 +8,12 @@ public class RebindButton : MonoBehaviour
     [SerializeField] private InputActionReference inputActionRef;
     [SerializeField] private TMP_Text buttonText;
     private InputActionRebindingExtensions.RebindingOperation rebindingOperation;
+    private void Start()
+    {
+        int bindingIndex = inputActionRef.action.GetBindingIndexForControl(inputActionRef.action.controls[0]);
+        buttonText.text = InputControlPath.ToHumanReadableString(inputActionRef.action.bindings[bindingIndex].effectivePath,
+            InputControlPath.HumanReadableStringOptions.OmitDevice);
+    }
     public void StartRebinding()
     {
         rebindingOperation = inputActionRef.action.PerformInteractiveRebinding()
