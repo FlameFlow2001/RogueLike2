@@ -1,0 +1,5508 @@
+fileFormatVersion: 2
+guid: e0729120c7d24c1498dc64295eaa0463
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9015455475946900150
+    second: Customs_007_0
+  - first:
+      213: 1661578159530689685
+    second: Customs_007_1
+  - first:
+      213: 685582139556276643
+    second: Customs_007_2
+  - first:
+      213: -6178157801501322250
+    second: Customs_007_3
+  - first:
+      213: 7982507078555889649
+    second: Customs_007_4
+  - first:
+      213: 997361288380514378
+    second: Customs_007_5
+  - first:
+      213: 8508404184366771181
+    second: Customs_007_6
+  - first:
+      213: 341348209781828879
+    second: Customs_007_7
+  - first:
+      213: -3102937008408003760
+    second: Customs_007_8
+  - first:
+      213: 5041842208814087616
+    second: Customs_007_9
+  - first:
+      213: -7701700615627912509
+    second: Customs_007_10
+  - first:
+      213: -8573801526105462750
+    second: Customs_007_11
+  - first:
+      213: 297457161434722452
+    second: Customs_007_12
+  - first:
+      213: -6889550882409326251
+    second: Customs_007_13
+  - first:
+      213: 5320064913690706770
+    second: Customs_007_14
+  - first:
+      213: -9115022914554494081
+    second: Customs_007_15
+  - first:
+      213: -5983795164198332795
+    second: Customs_007_16
+  - first:
+      213: -340746621707885213
+    second: Customs_007_17
+  - first:
+      213: 6224929543798410387
+    second: Customs_007_18
+  - first:
+      213: 5805849534437540039
+    second: Customs_007_19
+  - first:
+      213: -4421051347580624486
+    second: Customs_007_20
+  - first:
+      213: -3782334299805920298
+    second: Customs_007_21
+  - first:
+      213: 1289857415935168854
+    second: Customs_007_22
+  - first:
+      213: -892380349514722514
+    second: Customs_007_23
+  - first:
+      213: 8698077734524700122
+    second: Customs_007_24
+  - first:
+      213: -476288850414938638
+    second: Customs_007_25
+  - first:
+      213: -4457419837089650864
+    second: Customs_007_26
+  - first:
+      213: -3993295371337491010
+    second: Customs_007_27
+  - first:
+      213: -4875813785079118831
+    second: Customs_007_28
+  - first:
+      213: 5960401895175272798
+    second: Customs_007_29
+  - first:
+      213: 1685162093589502546
+    second: Customs_007_30
+  - first:
+      213: -6454503965454265992
+    second: Customs_007_31
+  - first:
+      213: 6102058231972427151
+    second: Customs_007_32
+  - first:
+      213: -417706759101275316
+    second: Customs_007_33
+  - first:
+      213: 6620789093783615890
+    second: Customs_007_34
+  - first:
+      213: 15352632835484609
+    second: Customs_007_35
+  - first:
+      213: 2486692247657052869
+    second: Customs_007_36
+  - first:
+      213: 2692734291021692710
+    second: Customs_007_37
+  - first:
+      213: 689912723055870894
+    second: Customs_007_38
+  - first:
+      213: 6184564247791984925
+    second: Customs_007_39
+  - first:
+      213: -2271610487854910239
+    second: Customs_007_40
+  - first:
+      213: -4216444693711971228
+    second: Customs_007_41
+  - first:
+      213: 3917634323663660555
+    second: Customs_007_42
+  - first:
+      213: -3631148338334419054
+    second: Customs_007_43
+  - first:
+      213: -8745277493350219710
+    second: Customs_007_44
+  - first:
+      213: 2427786370599925893
+    second: Customs_007_45
+  - first:
+      213: 4643209897044290018
+    second: Customs_007_46
+  - first:
+      213: -2715567946949198098
+    second: Customs_007_47
+  - first:
+      213: -2393883358731514214
+    second: Customs_007_48
+  - first:
+      213: -3586219831640934791
+    second: Customs_007_49
+  - first:
+      213: 3305087174855594927
+    second: Customs_007_50
+  - first:
+      213: 1947847035645342702
+    second: Customs_007_51
+  - first:
+      213: 7524617947636954628
+    second: Customs_007_52
+  - first:
+      213: 2643227209450463386
+    second: Customs_007_53
+  - first:
+      213: 7991538057545912054
+    second: Customs_007_54
+  - first:
+      213: -3614821342280093222
+    second: Customs_007_55
+  - first:
+      213: -918694481108074414
+    second: Customs_007_56
+  - first:
+      213: -7621260640269521372
+    second: Customs_007_57
+  - first:
+      213: -8158371523234888679
+    second: Customs_007_58
+  - first:
+      213: 1658457308136491942
+    second: Customs_007_59
+  - first:
+      213: 5929059668577202917
+    second: Customs_007_60
+  - first:
+      213: 2649974663484815782
+    second: Customs_007_61
+  - first:
+      213: 2598443936609994049
+    second: Customs_007_62
+  - first:
+      213: 6040710561762599938
+    second: Customs_007_63
+  - first:
+      213: -6307710930392744052
+    second: Customs_007_64
+  - first:
+      213: 5544142684020172926
+    second: Customs_007_65
+  - first:
+      213: -6970790385874403703
+    second: Customs_007_66
+  - first:
+      213: 1055566479990956890
+    second: Customs_007_67
+  - first:
+      213: 2848733131953759230
+    second: Customs_007_68
+  - first:
+      213: 7766594762115115203
+    second: Customs_007_69
+  - first:
+      213: 7251008784171898109
+    second: Customs_007_70
+  - first:
+      213: -3800561979452455564
+    second: Customs_007_71
+  - first:
+      213: -8252577940416459863
+    second: Customs_007_72
+  - first:
+      213: -5290992585964749153
+    second: Customs_007_73
+  - first:
+      213: 4387912741546516394
+    second: Customs_007_74
+  - first:
+      213: -6025447677177219063
+    second: Customs_007_75
+  - first:
+      213: 5704300998555955717
+    second: Customs_007_76
+  - first:
+      213: -6962870089450904249
+    second: Customs_007_77
+  - first:
+      213: -4112235022644360854
+    second: Customs_007_78
+  - first:
+      213: 7330754816991281519
+    second: Customs_007_79
+  - first:
+      213: -8206250945190090971
+    second: Customs_007_80
+  - first:
+      213: -5908847214643871546
+    second: Customs_007_81
+  - first:
+      213: -421448218918135709
+    second: Customs_007_82
+  - first:
+      213: -1547602254106832970
+    second: Customs_007_83
+  - first:
+      213: -6733070195022243202
+    second: Customs_007_84
+  - first:
+      213: -4603244537301977982
+    second: Customs_007_85
+  - first:
+      213: -2303078331502756029
+    second: Customs_007_86
+  - first:
+      213: 2649449979785812688
+    second: Customs_007_87
+  - first:
+      213: 6074895588764263263
+    second: Customs_007_88
+  - first:
+      213: -7897572796818651226
+    second: Customs_007_89
+  - first:
+      213: -8093419386694488950
+    second: Customs_007_90
+  - first:
+      213: 6268135211915474899
+    second: Customs_007_91
+  - first:
+      213: -5211644068027264115
+    second: Customs_007_92
+  - first:
+      213: -3436998068461901759
+    second: Customs_007_93
+  - first:
+      213: 6937657258370421668
+    second: Customs_007_94
+  - first:
+      213: 4866402254747234980
+    second: Customs_007_95
+  - first:
+      213: 2437034865308374160
+    second: Customs_007_96
+  - first:
+      213: 5495712533448182663
+    second: Customs_007_97
+  - first:
+      213: 5566816284374372845
+    second: Customs_007_98
+  - first:
+      213: -3330625778495769279
+    second: Customs_007_99
+  - first:
+      213: 4529242306213415941
+    second: Customs_007_100
+  - first:
+      213: 7166860971152909282
+    second: Customs_007_101
+  - first:
+      213: -828896720358750183
+    second: Customs_007_102
+  - first:
+      213: 829255159213275418
+    second: Customs_007_103
+  - first:
+      213: -3105068767207471153
+    second: Customs_007_104
+  - first:
+      213: -9048955816953037587
+    second: Customs_007_105
+  - first:
+      213: -600229167793142433
+    second: Customs_007_106
+  - first:
+      213: -8756697644784917745
+    second: Customs_007_107
+  - first:
+      213: 8105186740773969103
+    second: Customs_007_108
+  - first:
+      213: -3867017727365621958
+    second: Customs_007_109
+  - first:
+      213: 5426188826051142808
+    second: Customs_007_110
+  - first:
+      213: -3926946121551547235
+    second: Customs_007_111
+  - first:
+      213: -5405931065307388465
+    second: Customs_007_112
+  - first:
+      213: -4380447517989895302
+    second: Customs_007_113
+  - first:
+      213: -6927076303164959429
+    second: Customs_007_114
+  - first:
+      213: -6540587796106715105
+    second: Customs_007_115
+  - first:
+      213: -291514633845044969
+    second: Customs_007_116
+  - first:
+      213: -1110269728285989717
+    second: Customs_007_117
+  - first:
+      213: -211508265898449383
+    second: Customs_007_118
+  - first:
+      213: 6848725550826830736
+    second: Customs_007_119
+  - first:
+      213: 5441048228493524652
+    second: Customs_007_120
+  - first:
+      213: 6777060330207643190
+    second: Customs_007_121
+  - first:
+      213: -8046412166546726982
+    second: Customs_007_122
+  - first:
+      213: 5967373877907622533
+    second: Customs_007_123
+  - first:
+      213: 4483363618841685088
+    second: Customs_007_124
+  - first:
+      213: -7183268865615310292
+    second: Customs_007_125
+  - first:
+      213: -7610611575805752102
+    second: Customs_007_126
+  - first:
+      213: -7304478245385130611
+    second: Customs_007_127
+  - first:
+      213: 945615019889003639
+    second: Customs_007_128
+  - first:
+      213: -3308667116899480790
+    second: Customs_007_129
+  - first:
+      213: 48353471381275310
+    second: Customs_007_130
+  - first:
+      213: 1834221452425482060
+    second: Customs_007_131
+  - first:
+      213: 3126147691884589213
+    second: Customs_007_132
+  - first:
+      213: -6890900007784487613
+    second: Customs_007_133
+  - first:
+      213: -7495478137091555134
+    second: Customs_007_134
+  - first:
+      213: 541127697268117365
+    second: Customs_007_135
+  - first:
+      213: -1516612070489558611
+    second: Customs_007_136
+  - first:
+      213: -2751321235060186936
+    second: Customs_007_137
+  - first:
+      213: 8970936353939088572
+    second: Customs_007_138
+  - first:
+      213: 4818805276710752336
+    second: Customs_007_139
+  - first:
+      213: -5510438039302619306
+    second: Customs_007_140
+  - first:
+      213: 50180298147968355
+    second: Customs_007_141
+  - first:
+      213: -3236053877209140746
+    second: Customs_007_142
+  - first:
+      213: -8849848794581701938
+    second: Customs_007_143
+  - first:
+      213: -8166136733183268441
+    second: Customs_007_144
+  - first:
+      213: -7142475541585810273
+    second: Customs_007_145
+  - first:
+      213: -2275027286720300500
+    second: Customs_007_146
+  - first:
+      213: -8858764769005380763
+    second: Customs_007_147
+  - first:
+      213: 871077535639031081
+    second: Customs_007_148
+  - first:
+      213: 6717344188248952523
+    second: Customs_007_149
+  - first:
+      213: -8069294501680762025
+    second: Customs_007_150
+  - first:
+      213: -5284249546960908479
+    second: Customs_007_151
+  - first:
+      213: 6626416480081060296
+    second: Customs_007_152
+  - first:
+      213: 4680601925384091125
+    second: Customs_007_153
+  - first:
+      213: -5255853003757825142
+    second: Customs_007_154
+  - first:
+      213: -2418334424437175016
+    second: Customs_007_155
+  - first:
+      213: 3187559767007578989
+    second: Customs_007_156
+  - first:
+      213: -7000988840763704227
+    second: Customs_007_157
+  - first:
+      213: -2003568592446716582
+    second: Customs_007_158
+  - first:
+      213: -8347227251451274231
+    second: Customs_007_159
+  - first:
+      213: -7026237881216100030
+    second: Customs_007_160
+  - first:
+      213: 5678238627522112234
+    second: Customs_007_161
+  - first:
+      213: 3467674456251168662
+    second: Customs_007_162
+  - first:
+      213: 2504708872006203015
+    second: Customs_007_163
+  - first:
+      213: -2379773383586946483
+    second: Customs_007_164
+  - first:
+      213: -1417392890711192458
+    second: Customs_007_165
+  - first:
+      213: 7355769943854162527
+    second: Customs_007_166
+  - first:
+      213: 6630231497907389247
+    second: Customs_007_167
+  - first:
+      213: -5663157808029512684
+    second: Customs_007_168
+  - first:
+      213: -7417177004723185164
+    second: Customs_007_169
+  - first:
+      213: -8254233462693621940
+    second: Customs_007_170
+  - first:
+      213: 6908405481114584749
+    second: Customs_007_171
+  - first:
+      213: -9173136496030686001
+    second: Customs_007_172
+  - first:
+      213: -898762991552819763
+    second: Customs_007_173
+  - first:
+      213: 2035184295859654512
+    second: Customs_007_174
+  - first:
+      213: -7804537498541104905
+    second: Customs_007_175
+  - first:
+      213: 6855203385781422163
+    second: Customs_007_176
+  - first:
+      213: 2771467272777569511
+    second: Customs_007_177
+  - first:
+      213: -8898624510373804517
+    second: Customs_007_178
+  - first:
+      213: 5513935609081692691
+    second: Customs_007_179
+  - first:
+      213: 1409592699103784457
+    second: Customs_007_180
+  - first:
+      213: -8921866983049079089
+    second: Customs_007_181
+  - first:
+      213: -7741069463685615553
+    second: Customs_007_182
+  - first:
+      213: -7423388356687675357
+    second: Customs_007_183
+  - first:
+      213: 5085162531095274614
+    second: Customs_007_184
+  - first:
+      213: -7196421624592593189
+    second: Customs_007_185
+  - first:
+      213: 6224985793943871647
+    second: Customs_007_186
+  - first:
+      213: 5152263641860962360
+    second: Customs_007_187
+  - first:
+      213: -3494531531626267072
+    second: Customs_007_188
+  - first:
+      213: -9027872764905482389
+    second: Customs_007_189
+  - first:
+      213: 4502361109924629224
+    second: Customs_007_190
+  - first:
+      213: -7406199869142309948
+    second: Customs_007_191
+  - first:
+      213: -1874047704853647644
+    second: Customs_007_192
+  - first:
+      213: -5280273932889471143
+    second: Customs_007_193
+  - first:
+      213: 8070346698903863465
+    second: Customs_007_194
+  - first:
+      213: 2266489751876619610
+    second: Customs_007_195
+  - first:
+      213: -5251490930113527022
+    second: Customs_007_196
+  - first:
+      213: -7954289057832678115
+    second: Customs_007_197
+  - first:
+      213: -8768888438219161626
+    second: Customs_007_198
+  - first:
+      213: -3558284631148892991
+    second: Customs_007_199
+  - first:
+      213: -1837175784470728383
+    second: Customs_007_200
+  - first:
+      213: -7841044523766986124
+    second: Customs_007_201
+  - first:
+      213: -3679292485561286246
+    second: Customs_007_202
+  - first:
+      213: 4624569993947580252
+    second: Customs_007_203
+  - first:
+      213: 5706198214241806028
+    second: Customs_007_204
+  - first:
+      213: -6018060661757778146
+    second: Customs_007_205
+  - first:
+      213: 2493921707406987978
+    second: Customs_007_206
+  - first:
+      213: -4343950880368088997
+    second: Customs_007_207
+  - first:
+      213: 4724016637275629903
+    second: Customs_007_208
+  - first:
+      213: 3156717776241112188
+    second: Customs_007_209
+  - first:
+      213: 7717438845292645096
+    second: Customs_007_210
+  - first:
+      213: 4015327635792527297
+    second: Customs_007_211
+  - first:
+      213: 8726436325051113347
+    second: Customs_007_212
+  - first:
+      213: -852616623646014299
+    second: Customs_007_213
+  - first:
+      213: 8113918033428908591
+    second: Customs_007_214
+  - first:
+      213: -3592591544657994128
+    second: Customs_007_215
+  - first:
+      213: 1248003362423833338
+    second: Customs_007_216
+  - first:
+      213: 7895509424250747257
+    second: Customs_007_217
+  - first:
+      213: 3716537485476114988
+    second: Customs_007_218
+  - first:
+      213: 5832770376681244585
+    second: Customs_007_219
+  - first:
+      213: -2581562344857403587
+    second: Customs_007_220
+  - first:
+      213: 5850561267078033045
+    second: Customs_007_221
+  - first:
+      213: 5815401988068155758
+    second: Customs_007_222
+  - first:
+      213: -7071330642754379467
+    second: Customs_007_223
+  - first:
+      213: -90489257842867998
+    second: Customs_007_224
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Customs_007_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 238.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba4a2c4df45d1d70800000000000000
+      internalID: 9015455475946900150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 238.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594cf5d588c1f0710800000000000000
+      internalID: 1661578159530689685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 238.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9aa94d25da38900800000000000000
+      internalID: 685582139556276643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_3
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 238.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3943b7636c24aa0800000000000000
+      internalID: -6178157801501322250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_4
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 238.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff6d5215ef87ce60800000000000000
+      internalID: 7982507078555889649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_5
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 238.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4085aabec657dd00800000000000000
+      internalID: 997361288380514378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_6
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 238.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: debe0a6b68ce31670800000000000000
+      internalID: 8508404184366771181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_7
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 238.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0de2c46366bcb400800000000000000
+      internalID: 341348209781828879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_8
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 238.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b7d6d1b3720f4d0800000000000000
+      internalID: -3102937008408003760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_9
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 238.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd3feda6c838f540800000000000000
+      internalID: 5041842208814087616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_10
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 238.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca471f68101e1590800000000000000
+      internalID: -7701700615627912509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_11
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 238.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22828cd10fcb30980800000000000000
+      internalID: -8573801526105462750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_12
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 238.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490763b56b7c02400800000000000000
+      internalID: 297457161434722452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_13
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 238.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559530099f56360a0800000000000000
+      internalID: -6889550882409326251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_14
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 238.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253cd822adaa4d940800000000000000
+      internalID: 5320064913690706770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 221.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f730f62e3fee08180800000000000000
+      internalID: -9115022914554494081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_16
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 221.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586124d600a45fca0800000000000000
+      internalID: -5983795164198332795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_17
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 221.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365efaeb0cc654bf0800000000000000
+      internalID: -340746621707885213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_18
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 221.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c40f16074636650800000000000000
+      internalID: 6224929543798410387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_19
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 221.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0448f0465829050800000000000000
+      internalID: 5805849534437540039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_20
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 221.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91e1bd193545a2c0800000000000000
+      internalID: -4421051347580624486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_21
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 221.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3da467ef2728bc0800000000000000
+      internalID: -3782334299805920298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_22
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 221.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65118bf5c7e76e110800000000000000
+      internalID: 1289857415935168854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_23
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 221.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23d2a6dcc0ad93f0800000000000000
+      internalID: -892380349514722514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_24
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 221.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5441b7d97c5b870800000000000000
+      internalID: 8698077734524700122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_25
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 221.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5d98460d1e369f0800000000000000
+      internalID: -476288850414938638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_26
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 221.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057ed7b46401422c0800000000000000
+      internalID: -4457419837089650864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_27
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 221.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd97346407f498c0800000000000000
+      internalID: -3993295371337491010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_28
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 221.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11408651231a55cb0800000000000000
+      internalID: -4875813785079118831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_29
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 221.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59bc70b1f997b250800000000000000
+      internalID: 5960401895175272798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a1b59eef5e26710800000000000000
+      internalID: 1685162093589502546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_31
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 204.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8719fb147defc66a0800000000000000
+      internalID: -6454503965454265992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_32
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 204.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85f673c1addea450800000000000000
+      internalID: 6102058231972427151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_33
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 204.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c432d7b6ae1043af0800000000000000
+      internalID: -417706759101275316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_34
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 204.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299b0c33a94c1eb50800000000000000
+      internalID: 6620789093783615890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_35
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 204.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cba682632b863000800000000000000
+      internalID: 15352632835484609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_36
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 204.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5caf0579c61828220800000000000000
+      internalID: 2486692247657052869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_37
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 204.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f7cda22938e5520800000000000000
+      internalID: 2692734291021692710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_38
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 204.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea384cf57ff039900800000000000000
+      internalID: 689912723055870894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_39
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 204.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11e8388a6cf3d550800000000000000
+      internalID: 6184564247791984925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_40
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 204.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e43b5bfb4e9970e0800000000000000
+      internalID: -2271610487854910239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_41
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 204.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c973804ed2c75c0800000000000000
+      internalID: -4216444693711971228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_42
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 204.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06a9dd29ab3e5630800000000000000
+      internalID: 3917634323663660555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_43
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 204.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297b3de23d19b9dc0800000000000000
+      internalID: -3631148338334419054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_44
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 204.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24044aa447882a680800000000000000
+      internalID: -8745277493350219710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 187.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588b42257da31b120800000000000000
+      internalID: 2427786370599925893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_46
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 187.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e927e2fcceff6040800000000000000
+      internalID: 4643209897044290018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_47
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 187.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeef7a6075d505ad0800000000000000
+      internalID: -2715567946949198098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_48
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 187.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ec611c4c737ced0800000000000000
+      internalID: -2393883358731514214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_49
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 187.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 976b49050103b3ec0800000000000000
+      internalID: -3586219831640934791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_50
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 187.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa397f046470edd20800000000000000
+      internalID: 3305087174855594927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_51
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 187.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3307c0f84280b10800000000000000
+      internalID: 1947847035645342702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_52
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 187.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406fd6ff720dc6860800000000000000
+      internalID: 7524617947636954628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_53
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 187.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9021ff7421aea420800000000000000
+      internalID: 2643227209450463386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_54
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 187.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe0a09b585a7ee60800000000000000
+      internalID: 7991538057545912054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_55
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 187.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1f4ee242395ddc0800000000000000
+      internalID: -3614821342280093222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_56
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 187.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2500174ac342043f0800000000000000
+      internalID: -918694481108074414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_57
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 187.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ea11ca3d7db3690800000000000000
+      internalID: -7621260640269521372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_58
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 187.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9140ce31354a7ce80800000000000000
+      internalID: -8158371523234888679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_59
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 187.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab40a68226040710800000000000000
+      internalID: 1658457308136491942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 170.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2b3a5ea50484250800000000000000
+      internalID: 5929059668577202917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_61
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 170.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a93cc09ae996c420800000000000000
+      internalID: 2649974663484815782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_62
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 170.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14508624ef68f0420800000000000000
+      internalID: 2598443936609994049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_63
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 170.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2046fc8304ae4d350800000000000000
+      internalID: 6040710561762599938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_64
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 170.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f771814528678a0800000000000000
+      internalID: -6307710930392744052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_65
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 170.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e786a11a560c0fc40800000000000000
+      internalID: 5544142684020172926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_66
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 170.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e7f3ea317c24f90800000000000000
+      internalID: -6970790385874403703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_67
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 170.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53aba4fe1026ae00800000000000000
+      internalID: 1055566479990956890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_68
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 170.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef36df5b0bbb88720800000000000000
+      internalID: 2848733131953759230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_69
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 170.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c8e74679cc78cb60800000000000000
+      internalID: 7766594762115115203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_70
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 170.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df49dcb5212c0a460800000000000000
+      internalID: 7251008784171898109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_71
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 170.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47581e31401b14bc0800000000000000
+      internalID: -3800561979452455564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_72
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 170.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab80445614f87d80800000000000000
+      internalID: -8252577940416459863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_73
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 170.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e7854a64e9296b0800000000000000
+      internalID: -5290992585964749153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_74
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 170.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf5a49e36ff4ec30800000000000000
+      internalID: 4387912741546516394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 153.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9083625034f416ca0800000000000000
+      internalID: -6025447677177219063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_76
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 153.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50275d6198fb92f40800000000000000
+      internalID: 5704300998555955717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_77
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 153.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74526156b8aee5f90800000000000000
+      internalID: -6962870089450904249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_78
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 153.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69cc52d8086ee6c0800000000000000
+      internalID: -4112235022644360854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_79
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 153.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61cf328aa21cb560800000000000000
+      internalID: 7330754816991281519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_80
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 153.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5272b327e3a8d1e80800000000000000
+      internalID: -8206250945190090971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_81
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 153.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c08813c3ce8ffda0800000000000000
+      internalID: -5908847214643871546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_82
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 153.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368d92ce317b62af0800000000000000
+      internalID: -421448218918135709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_83
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 153.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf4e5e03ffc58ae0800000000000000
+      internalID: -1547602254106832970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_84
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 153.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7adde9b4545f82a0800000000000000
+      internalID: -6733070195022243202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_85
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 153.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 284bbdb7b7dfd10c0800000000000000
+      internalID: -4603244537301977982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_86
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 153.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ff0e0b572d900e0800000000000000
+      internalID: -2303078331502756029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_87
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 153.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da9c4f18bcb4c420800000000000000
+      internalID: 2649449979785812688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_88
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 153.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53a1ef0a5d5e4450800000000000000
+      internalID: 6074895588764263263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_89
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 153.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a706d9626f266290800000000000000
+      internalID: -7897572796818651226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 136.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ca0d5d2f56eaf80800000000000000
+      internalID: -8093419386694488950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_91
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 136.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7f656e3c3ecf650800000000000000
+      internalID: 6268135211915474899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_92
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 136.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83967525558ca7b0800000000000000
+      internalID: -5211644068027264115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_93
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 136.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148ef9b77745d40d0800000000000000
+      internalID: -3436998068461901759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_94
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 136.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3549ae482874060800000000000000
+      internalID: 6937657258370421668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_95
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 136.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a27e50411fe88340800000000000000
+      internalID: 4866402254747234980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_96
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 136.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09492fb4c4612d120800000000000000
+      internalID: 2437034865308374160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_97
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 136.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b47df7e61b44c40800000000000000
+      internalID: 5495712533448182663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_98
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 136.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de19ef79aed414d40800000000000000
+      internalID: 5566816284374372845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_99
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 136.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1453009308d37c1d0800000000000000
+      internalID: -3330625778495769279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_100
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 136.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c858b61e91bde30800000000000000
+      internalID: 4529242306213415941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_101
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 136.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e32e24e41ec57360800000000000000
+      internalID: 7166860971152909282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_102
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 136.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918c78313da2f74f0800000000000000
+      internalID: -828896720358750183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_103
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 136.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1931197c2b128b00800000000000000
+      internalID: 829255159213275418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_104
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 136.93333
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc74077586498e4d0800000000000000
+      internalID: -3105068767207471153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 119.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec3f4eb0a6ab6280800000000000000
+      internalID: -9048955816953037587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_106
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 119.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f558cd580ce8ba7f0800000000000000
+      internalID: -600229167793142433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_107
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 119.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03681513e5f97680800000000000000
+      internalID: -8756697644784917745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_108
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 119.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fccd90ac5686b7070800000000000000
+      internalID: 8105186740773969103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_109
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 119.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37db348dd7955ac0800000000000000
+      internalID: -3867017727365621958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_110
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 119.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894e8f4fcf1bd4b40800000000000000
+      internalID: 5426188826051142808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_111
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 119.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9472dcee4fa089c0800000000000000
+      internalID: -3926946121551547235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_112
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 119.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5aa1486564af4b0800000000000000
+      internalID: -5405931065307388465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_113
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 119.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7388f4e0368533c0800000000000000
+      internalID: -4380447517989895302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_114
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 119.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3593d1bdc41edf90800000000000000
+      internalID: -6927076303164959429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_115
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 119.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10edce8d0a2b35a0800000000000000
+      internalID: -6540587796106715105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_116
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 119.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71986da2cf454fbf0800000000000000
+      internalID: -291514633845044969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_117
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 119.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4e4a880978790f0800000000000000
+      internalID: -1110269728285989717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_118
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 119.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91660105a52901df0800000000000000
+      internalID: -211508265898449383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_119
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 119.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09bbc253a9f8b0f50800000000000000
+      internalID: 6848725550826830736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 102.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caeff11398c728b40800000000000000
+      internalID: 5441048228493524652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_121
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 102.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6360b63c674fc0e50800000000000000
+      internalID: 6777060330207643190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_122
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 102.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfd99824c6655090800000000000000
+      internalID: -8046412166546726982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_123
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 102.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a01aaecee50d250800000000000000
+      internalID: 5967373877907622533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_124
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 102.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ce7fb157b183e30800000000000000
+      internalID: 4483363618841685088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_125
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 102.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2250ea7607ef4c90800000000000000
+      internalID: -7183268865615310292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_126
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 102.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc4f94381da16690800000000000000
+      internalID: -7610611575805752102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_127
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 102.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d20429cb741aa90800000000000000
+      internalID: -7304478245385130611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_128
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 102.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c02cab9df7f1d00800000000000000
+      internalID: 945615019889003639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_129
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 102.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2bc03989c04512d0800000000000000
+      internalID: -3308667116899480790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_130
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 102.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2865dd939cba000800000000000000
+      internalID: 48353471381275310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_131
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 102.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4fc83f51b6747910800000000000000
+      internalID: 1834221452425482060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_132
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 102.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90303243ce426b20800000000000000
+      internalID: 3126147691884589213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_133
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 102.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345e445d3fa9e50a0800000000000000
+      internalID: -6890900007784487613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_134
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 102.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c083f8d856baf790800000000000000
+      internalID: -7495478137091555134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_135
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 85.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f8acd06c8728700800000000000000
+      internalID: 541127697268117365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_136
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 85.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da176647b59e3fae0800000000000000
+      internalID: -1516612070489558611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_137
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 85.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0af31f9e751d9d0800000000000000
+      internalID: -2751321235060186936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_138
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 85.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb46d27751b2f7c70800000000000000
+      internalID: 8970936353939088572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_139
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 85.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0505f183ed5dfd240800000000000000
+      internalID: 4818805276710752336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_140
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 85.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f319e7ccdf683b0800000000000000
+      internalID: -5510438039302619306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_141
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 85.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36535dd17b642b000800000000000000
+      internalID: 50180298147968355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_142
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 85.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f17ceed42a3713d0800000000000000
+      internalID: -3236053877209140746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_143
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 85.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecae90be8650f2580800000000000000
+      internalID: -8849848794581701938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_144
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 85.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9a75f38ed0cae80800000000000000
+      internalID: -8166136733183268441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_145
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 85.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9cacde5654d0ec90800000000000000
+      internalID: -7142475541585810273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_146
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 85.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a37b08cba7d60e0800000000000000
+      internalID: -2275027286720300500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_147
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 85.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b50bad0685f0580800000000000000
+      internalID: -8858764769005380763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_148
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 85.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d469b4760b61c00800000000000000
+      internalID: 871077535639031081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_149
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 85.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce0d9ef2fcc83d50800000000000000
+      internalID: 6717344188248952523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_150
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 68.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7533e47576b140090800000000000000
+      internalID: -8069294501680762025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_151
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 68.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f40e0c8039aa6b0800000000000000
+      internalID: -5284249546960908479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_152
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 68.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1a60d2ea2c5fb50800000000000000
+      internalID: 6626416480081060296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_153
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 68.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f53789f6a6d4f040800000000000000
+      internalID: 4680601925384091125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_154
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 68.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83585f2a857f07b0800000000000000
+      internalID: -5255853003757825142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_155
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 68.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81dc25367a9507ed0800000000000000
+      internalID: -2418334424437175016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_156
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 68.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b40dc38bc7c3c20800000000000000
+      internalID: 3187559767007578989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_157
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 68.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c3ecdfdbd77de90800000000000000
+      internalID: -7000988840763704227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_158
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 68.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5585140bf4e134e0800000000000000
+      internalID: -2003568592446716582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_159
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 68.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c59c15a01b82c80800000000000000
+      internalID: -8347227251451274231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_160
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 68.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24998b6afd9cd7e90800000000000000
+      internalID: -7026237881216100030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_161
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 68.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea6b5772f72dce40800000000000000
+      internalID: 5678238627522112234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_162
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 68.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697fb81ab87af1030800000000000000
+      internalID: 3467674456251168662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_163
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 68.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786f2b5d27382c220800000000000000
+      internalID: 2504708872006203015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_164
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 68.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42ee5957b859fed0800000000000000
+      internalID: -2379773383586946483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_165
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 51.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ccef1fca8645ce0800000000000000
+      internalID: -1417392890711192458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_166
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 51.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f522ce89ac1f41660800000000000000
+      internalID: 7355769943854162527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_167
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 51.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33406b3b60530c50800000000000000
+      internalID: 6630231497907389247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_168
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 51.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ccb617afb6861b0800000000000000
+      internalID: -5663157808029512684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_169
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 51.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f95745efc4e01990800000000000000
+      internalID: -7417177004723185164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_170
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 51.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f01030662137d80800000000000000
+      internalID: -8254233462693621940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_171
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 51.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6423ace269fdf50800000000000000
+      internalID: 6908405481114584749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_172
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 51.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc46bed45f872b080800000000000000
+      internalID: -9173136496030686001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_173
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 51.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd0a3f22d3f683f0800000000000000
+      internalID: -898762991552819763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_174
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 51.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f0b2f855d6e3c10800000000000000
+      internalID: 2035184295859654512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_175
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 51.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0ed3bce76b0b390800000000000000
+      internalID: -7804537498541104905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_176
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 51.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3588e80b823922f50800000000000000
+      internalID: 6855203385781422163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_177
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 51.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4178cfcca367620800000000000000
+      internalID: 2771467272777569511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_178
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 51.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16c59d972cb18480800000000000000
+      internalID: -8898624510373804517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_179
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 51.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31201bde83f658c40800000000000000
+      internalID: 5513935609081692691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_180
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ea01c6711ef8310800000000000000
+      internalID: 1409592699103784457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_181
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 34.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6d21ebf392f2480800000000000000
+      internalID: -8921866983049079089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_182
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 34.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3035633652329490800000000000000
+      internalID: -7741069463685615553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_183
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 34.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3204cd1de93daf890800000000000000
+      internalID: -7423388356687675357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_184
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 34.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6746f033160229640800000000000000
+      internalID: 5085162531095274614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_185
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 34.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde083429ac212c90800000000000000
+      internalID: -7196421624592593189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_186
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 34.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90a0e32997936650800000000000000
+      internalID: 6224985793943871647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_187
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 34.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83878420c74808740800000000000000
+      internalID: 5152263641860962360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_188
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 34.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04eb309361ee08fc0800000000000000
+      internalID: -3494531531626267072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_189
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 34.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6792625d8d86b280800000000000000
+      internalID: -9027872764905482389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_190
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 34.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea479f23999b7e30800000000000000
+      internalID: 4502361109924629224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_191
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 34.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c36a307574e73990800000000000000
+      internalID: -7406199869142309948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_192
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 34.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eeef04aa8b0ef5e0800000000000000
+      internalID: -1874047704853647644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_193
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 34.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9574e5985d2b8b6b0800000000000000
+      internalID: -5280273932889471143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_194
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 34.933334
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0496a6091afff60800000000000000
+      internalID: 8070346698903863465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_195
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 17.933332
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d4ba3cb60347f10800000000000000
+      internalID: 2266489751876619610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_196
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 17.933332
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213c56992d4fe17b0800000000000000
+      internalID: -5251490930113527022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_197
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 17.933332
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d4b1bde30bc9190800000000000000
+      internalID: -7954289057832678115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_198
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 17.933332
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6efbaeccc66ae4680800000000000000
+      internalID: -8768888438219161626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_199
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 17.933332
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc63a60bfe6e9ec0800000000000000
+      internalID: -3558284631148892991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_200
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 17.933332
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1413ca89b5a0186e0800000000000000
+      internalID: -1837175784470728383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_201
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 17.933332
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ac8dc9c830f2390800000000000000
+      internalID: -7841044523766986124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_202
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 17.933332
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a910b556af680fcc0800000000000000
+      internalID: -3679292485561286246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_203
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 17.933332
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c570d2058e5cd2040800000000000000
+      internalID: 4624569993947580252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_204
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 17.933332
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6e9d90b0d703f40800000000000000
+      internalID: 5706198214241806028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_205
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 17.933332
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17ec2396bd8b7ca0800000000000000
+      internalID: -6018060661757778146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_206
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 17.933332
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac211ab54903c9220800000000000000
+      internalID: 2493921707406987978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_207
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 17.933332
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b582ae580bf27b3c0800000000000000
+      internalID: -4343950880368088997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_208
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 17.933332
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4969d94a141f8140800000000000000
+      internalID: 4724016637275629903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_209
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 17.933332
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74330da71aeecb20800000000000000
+      internalID: 3156717776241112188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_210
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.93333244
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea0875bdb9d91b60800000000000000
+      internalID: 7717438845292645096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_211
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0.93333244
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cff83ce53f49b730800000000000000
+      internalID: 4015327635792527297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_212
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 0.93333244
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f9cbd5a978a1970800000000000000
+      internalID: 8726436325051113347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_213
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 0.93333244
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a48cf9b2b5ea24f0800000000000000
+      internalID: -852616623646014299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_214
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0.93333244
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a8a27467d6a9070800000000000000
+      internalID: 8113918033428908591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_215
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 0.93333244
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e9695460d842ec0800000000000000
+      internalID: -3592591544657994128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_216
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 0.93333244
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af204c7227cc15110800000000000000
+      internalID: 1248003362423833338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_217
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 0.93333244
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979f6393dfb729d60800000000000000
+      internalID: 7895509424250747257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_218
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 0.93333244
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c223a38e62bc39330800000000000000
+      internalID: 3716537485476114988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_219
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 0.93333244
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7c18611c922f050800000000000000
+      internalID: 5832770376681244585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_220
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0.93333244
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3fff3d99b27c2cd0800000000000000
+      internalID: -2581562344857403587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_221
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 0.93333244
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e68dc897e513150800000000000000
+      internalID: 5850561267078033045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_222
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 0.93333244
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6127ecfb4574b050800000000000000
+      internalID: 5815401988068155758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_223
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 0.93333244
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5316a45fe369ddd90800000000000000
+      internalID: -7071330642754379467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customs_007_224
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 0.93333244
+        width: 17.066668
+        height: 17.066668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0894adf748ebef0800000000000000
+      internalID: -90489257842867998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
