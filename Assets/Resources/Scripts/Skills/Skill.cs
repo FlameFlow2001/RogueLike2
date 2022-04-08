@@ -2,19 +2,21 @@ using UnityEngine;
 
 public class Skill : MonoBehaviour
 {
-    [SerializeField] protected GameObject player;
+    protected PlayerComponent playerComponent;
     protected Vector2 playerPos;
     protected PlayerUI playerUI;
     protected PlayerStats playerStats;
     protected bool isUltimateSkill;
-    protected virtual void Start()
+    public Sprite skillIcon;
+
+    public virtual void Awake()
     {
-        SetScript();
+        playerComponent = gameObject.GetComponentInParent<PlayerComponent>();
+        playerUI = (PlayerUI)playerComponent.unitUI;
+        playerStats = (PlayerStats)playerComponent.unitStats;
     }
 
-    protected virtual void SetScript()
-    {
-        playerUI = player.GetComponent<PlayerUI>();
-        playerStats = player.GetComponent<PlayerStats>();
-    }
+    public virtual void SetScript() { }
+    protected virtual void ActiveEffect() { }
+    //public virtual void TryToUseSkill() { }
 }

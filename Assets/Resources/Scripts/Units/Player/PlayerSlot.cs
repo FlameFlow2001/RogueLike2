@@ -5,14 +5,15 @@ public class PlayerSlot : MonoBehaviour
 {
     private PlayerComponent playerComponent;
     public BasicWeaponScript weapon;
-    public Skill firstSkill;
-    public Skill secondSkill;
-    public Skill thirdSkill;
-    public Skill ultimate;
+    public GameObject firstSkill;
+    public GameObject secondSkill;
+    public GameObject thirdSkill;
+    public GameObject ultimate;
     private bool attackButtonIsHeld;
-    private void Start()
+    private void Awake()
     {
         playerComponent = gameObject.GetComponent<PlayerComponent>();
+        //playerComponent.unitUI.
     }
     private void Update()
     {
@@ -42,25 +43,27 @@ public class PlayerSlot : MonoBehaviour
     public void UseFirstSkill(InputAction.CallbackContext context)
     {
         if (context.performed)
-            Debug.Log("First skill used");
+        {
+            firstSkill.GetComponent<ActiveSkill>().TryToUseSkill();
+        }
     }
 
     public void UseSecondSkill(InputAction.CallbackContext context)
     {
         if (context.performed)
-            Debug.Log("Second skill used");
+            secondSkill.GetComponent<ActiveSkill>().TryToUseSkill();
     }
 
     public void UseThirdSkill(InputAction.CallbackContext context)
     {
         if (context.performed)
-            Debug.Log("Third skill used");
+            thirdSkill.GetComponent<ActiveSkill>().TryToUseSkill();
     }
 
     public void UseUltimate(InputAction.CallbackContext context)
     {
         if (context.performed)
-            Debug.Log("Ultimate used");
+            ultimate.GetComponent<ActiveSkill>().TryToUseSkill();
     }
 
 

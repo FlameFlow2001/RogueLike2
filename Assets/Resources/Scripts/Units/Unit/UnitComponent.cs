@@ -6,7 +6,7 @@ public class UnitComponent : MonoBehaviour
     [HideInInspector] public UnitStats unitStats;
     [HideInInspector] public UnitUI unitUI;
 
-    public virtual void Start()
+    public virtual void Awake()
     {
         animator = gameObject.GetComponent<Animator>();
         unitStats = gameObject.GetComponent<UnitStats>();

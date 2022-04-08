@@ -5,9 +5,12 @@ public class PlayerStats : UnitStats
     public float mana;
     public float maxMana;
     public float manaRegenPerSec;
+    protected void Awake()
+    {
+        DontDestroyOnLoad(this);
+    }
     protected override void Start()
     {
-
         if (health <= 0 || health > maxHealth)
             health = maxHealth;
         unitComponent.unitUI.SetHealthUI(health, maxHealth);
@@ -23,11 +26,6 @@ public class PlayerStats : UnitStats
             unitComponent.unitUI.SetManaUI(mana, maxMana);
         }
     }
-    private void Awake()
-    {
-        DontDestroyOnLoad(this);
-    }
-
     public void AddCoins(int amount)
     {
         coins += amount;

@@ -8,6 +8,7 @@ public class UnitStats : MonoBehaviour
     public float maxHealth;
     public float health;
     public List<GameObject> lootDrop;
+
     protected virtual void Start()
     {
         if (health <= 0 || health > maxHealth)

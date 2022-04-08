@@ -6,9 +6,9 @@ public class PlayerComponent : UnitComponent
     [HideInInspector] public PlayerSlot playerSlot;
     [HideInInspector] public Rigidbody2D rb;
 
-    public override void Start()
+    public override void Awake()
     {
-        base.Start();
+        base.Awake();
         playerMovement = gameObject.GetComponent<PlayerMovement>();
         playerSlot = gameObject.GetComponent<PlayerSlot>();
         rb = gameObject.GetComponent<Rigidbody2D>();

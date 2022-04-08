@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 public class CircleHit : ActiveSkill
@@ -6,7 +5,6 @@ public class CircleHit : ActiveSkill
     [SerializeField] private GameObject projectile;
     [SerializeField] private float angleBetweenProjectiles;
     [SerializeField] private float projectileForce;
-    //private Vector2 attackingDirection = Vector2.right;
     protected override void ActiveEffect()
     {
         float projectileShootingAngle = 0;
