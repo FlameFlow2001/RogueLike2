@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class PlayerUI : UnitUI
 {
@@ -9,11 +10,13 @@ public class PlayerUI : UnitUI
     [SerializeField] protected Text manaValue;
     [SerializeField] protected Text healthValue;
     [SerializeField] protected Text coinValue;
-    [SerializeField] protected Image firstSkillImage;
-    [SerializeField] protected Image secondSkillImage;
-    [SerializeField] protected Image thirdSkillImage;
-    [SerializeField] protected Image ultimateImage;
+    public GameObject firstSkillSlot;
+    public GameObject secondSkillSlot;
+    public GameObject thirdSkillSlot;
+    public GameObject ultimateSlot;
     protected Slider manaBarSlider;
+    private Color32 disabledSkillColor = new Color32(255,255,255,100);
+    private Color32 enabledSkillColor = new Color32(255,255,255,255);
     
     public override void Start()
     {
@@ -24,10 +27,21 @@ public class PlayerUI : UnitUI
             manaBarSlider = manaBar.GetComponent<Slider>();
         }     
     }
-
-    public void SetSkillbarUI()
+    public void SetSkillUI(Skill skill, GameObject skillSlot)
     {
+        skillSlot.GetComponent<Image>().sprite = skill.skillIcon;
+        if (skill.isEnable)
+        {
+            skillSlot.GetComponent<Image>().color = enabledSkillColor;
+            //skillSlot.GetComponentInChildren<TextMeshPro>().text.ToLower();
+        }
+        else
+        {
+            skillSlot.GetComponent<Image>().color = disabledSkillColor;
+            //skillSlot.GetComponentInChildren<TextMeshPro>().gameObject.SetActive(true);
+        }
     }
+
     public override void SetHealthUI(float health, float maxHealth)
     {
         healthBarSlider.value = health / maxHealth;

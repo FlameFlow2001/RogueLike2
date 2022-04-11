@@ -3,16 +3,22 @@ public class ActiveSkill : Skill
 {
     [SerializeField] protected float manacost;
     [SerializeField] protected Cooldown cooldown;
+
+    protected virtual void ActiveEffect() { }
+
+    protected override void Update()
+    {
+        isEnable = playerStats.mana > manacost && cooldown.IsCompleted;
+        playerUI.SetSkillUI(this, playerUI.firstSkillSlot);
+    }
     public void TryToUseSkill()
     {
-        if (playerStats.mana > manacost && cooldown.IsCompleted)
+        if (isEnable)
         {
             playerPos = playerComponent.transform.position;
             ActiveEffect();
             playerStats.mana -= manacost;
-            playerUI.SetManaUI(playerStats.mana, playerStats.maxMana);
             cooldown.StartCooldown();
-
         }
     }
 }
