@@ -31,7 +31,14 @@ public class PlayerUI : UnitUI
     {
         skillSlot.GetComponent<SkillSlotUI>().skillIconSlot.sprite = skill.skillIcon;
         if (skill.GetManacost() != 0)
+        {
+            skillSlot.GetComponent<SkillSlotUI>().manacostText.gameObject.SetActive(true);
             skillSlot.GetComponent<SkillSlotUI>().manacostText.text = skill.GetManacost().ToString("F0");
+        }
+        else
+        {
+            skillSlot.GetComponent<SkillSlotUI>().manacostText.gameObject.SetActive(false);
+        }
         if (skill.isEnable)
         {
             skillSlot.GetComponent<SkillSlotUI>().skillIconSlot.color = enabledSkillColor;
