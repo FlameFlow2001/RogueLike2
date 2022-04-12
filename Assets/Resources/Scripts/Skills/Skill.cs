@@ -7,8 +7,12 @@ public class Skill : MonoBehaviour
     protected PlayerUI playerUI;
     protected PlayerStats playerStats;
     protected bool isUltimateSkill;
-    public bool isEnable;
+    [SerializeField] protected float manacost;
+    [HideInInspector] public bool isEnable = true;
+    [HideInInspector] public bool enoughMana = true;
+    [HideInInspector] public bool onCooldown = true;
     public Sprite skillIcon;
+    public Cooldown cooldown;
 
     public virtual void Awake()
     {
@@ -21,11 +25,10 @@ public class Skill : MonoBehaviour
     protected virtual void Update()
     {
         playerUI.SetSkillUI(this, playerUI.firstSkillSlot);
-        if (isEnable)
-            Debug.Log("Enabled");
-        else
-            Debug.Log("Disabled");
     }
-
+    public float GetManacost()
+    {
+        return manacost;
+    }
     public virtual void SetScript() { }
 }

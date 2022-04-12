@@ -47,4 +47,4 @@ MonoBehaviour:
     type: 3}
   projectileForce: 0.015
   cooldown:
-    cooldown: 0.35
+    cooldownTime: 0.35

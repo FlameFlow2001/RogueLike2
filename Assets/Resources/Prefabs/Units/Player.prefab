@@ -166,7 +166,6 @@ GameObject:
   - component: {fileID: 8633615499510315530}
   - component: {fileID: 3584905125596029729}
   - component: {fileID: 1431197399}
-  - component: {fileID: 1871555311}
   - component: {fileID: 1184564959}
   - component: {fileID: 1184564967}
   - component: {fileID: 1184564968}
@@ -347,29 +346,6 @@ MonoBehaviour:
   mana: 70
   maxMana: 100
   manaRegenPerSec: 1
---- !u!114 &1871555311
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2447510168015697216}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93016bf09a4ac6943a60044411a24053, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  unitComponent: {fileID: 1184564968}
-  damagePopupCanvasPref: {fileID: 9035262947476075793, guid: 6443b1e765f125f4499f850a187570ce,
-    type: 3}
-  healthBar: {fileID: 0}
-  manaBar: {fileID: 0}
-  manaValue: {fileID: 0}
-  healthValue: {fileID: 0}
-  coinValue: {fileID: 0}
-  firstSkillImage: {fileID: 0}
-  secondSkillImage: {fileID: 0}
-  thirdSkillImage: {fileID: 0}
 --- !u!114 &1184564959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -527,12 +503,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weapon: {fileID: 2491142028613523515, guid: 2567d99412275664cb336b51e739632b, type: 3}
   firstSkill: {fileID: 6669038554412374692}
-  secondSkill: {fileID: 6669038553689826732, guid: 9ee153a7fe006e64b9ac618f8a00f6ff,
-    type: 3}
-  thirdSkill: {fileID: 6669038553689826732, guid: 9ee153a7fe006e64b9ac618f8a00f6ff,
-    type: 3}
-  ultimate: {fileID: 6669038553689826732, guid: 9ee153a7fe006e64b9ac618f8a00f6ff,
-    type: 3}
+  secondSkill: {fileID: 6669038554412374692}
+  thirdSkill: {fileID: 6669038554412374692}
+  ultimate: {fileID: 6669038554412374692}
 --- !u!114 &1184564968
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -547,7 +520,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 2447510168015697222}
   unitStats: {fileID: 1431197399}
-  unitUI: {fileID: 1871555311}
+  unitUI: {fileID: 0}
   playerMovement: {fileID: 3584905125596029729}
   playerSlot: {fileID: 1184564967}
   rb: {fileID: 8633615499510315530}

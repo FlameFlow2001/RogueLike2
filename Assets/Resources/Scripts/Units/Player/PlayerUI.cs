@@ -29,17 +29,25 @@ public class PlayerUI : UnitUI
     }
     public void SetSkillUI(Skill skill, GameObject skillSlot)
     {
-        skillSlot.GetComponent<Image>().sprite = skill.skillIcon;
+        skillSlot.GetComponent<SkillSlotUI>().skillIconSlot.sprite = skill.skillIcon;
+        if (skill.GetManacost() != 0)
+            skillSlot.GetComponent<SkillSlotUI>().manacostText.text = skill.GetManacost().ToString("F0");
         if (skill.isEnable)
         {
-            skillSlot.GetComponent<Image>().color = enabledSkillColor;
-            //skillSlot.GetComponentInChildren<TextMeshPro>().text.ToLower();
+            skillSlot.GetComponent<SkillSlotUI>().skillIconSlot.color = enabledSkillColor;
+            skillSlot.GetComponent<SkillSlotUI>().cooldownText.gameObject.SetActive(false);
         }
         else
         {
-            skillSlot.GetComponent<Image>().color = disabledSkillColor;
-            //skillSlot.GetComponentInChildren<TextMeshPro>().gameObject.SetActive(true);
-        }
+            if (!skill.cooldown.IsCompleted)
+            {
+                skillSlot.GetComponent<SkillSlotUI>().skillIconSlot.color = disabledSkillColor;
+                skillSlot.GetComponent<SkillSlotUI>().cooldownText.gameObject.SetActive(true);
+                skillSlot.GetComponent<SkillSlotUI>().cooldownText.text = skill.cooldown.GetCooldownLeftTime().ToString("F1");
+            }
+            else
+                skillSlot.GetComponent<SkillSlotUI>().cooldownText.gameObject.SetActive(false);
+        } 
     }
 
     public override void SetHealthUI(float health, float maxHealth)

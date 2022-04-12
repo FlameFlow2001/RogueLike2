@@ -4,7 +4,7 @@ public class UnitComponent : MonoBehaviour
 {
     [HideInInspector] public Animator animator;
     [HideInInspector] public UnitStats unitStats;
-    [HideInInspector] public UnitUI unitUI;
+    public UnitUI unitUI;
 
     public virtual void Awake()
     {
