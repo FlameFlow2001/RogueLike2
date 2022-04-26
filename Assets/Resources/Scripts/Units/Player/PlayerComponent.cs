@@ -9,7 +9,7 @@ public class PlayerComponent : UnitComponent
     public override void Awake()
     {
         animator = gameObject.GetComponent<Animator>();
-        unitStats = gameObject.GetComponent<UnitStats>();
+        unitStats = gameObject.GetComponent<PlayerStats>();
         playerMovement = gameObject.GetComponent<PlayerMovement>();
         playerSlot = gameObject.GetComponent<PlayerSlot>();
         rb = gameObject.GetComponent<Rigidbody2D>();

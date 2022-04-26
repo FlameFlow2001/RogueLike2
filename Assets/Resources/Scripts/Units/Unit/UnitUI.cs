@@ -8,7 +8,7 @@ public class UnitUI : MonoBehaviour
     public GameObject healthBar;
     protected Slider healthBarSlider;
 
-    virtual public void Start()
+    virtual public void Awake()
     {
         if (ScriptIsSet())
             healthBarSlider = healthBar.GetComponent<Slider>();
@@ -18,10 +18,6 @@ public class UnitUI : MonoBehaviour
         if (healthBarSlider)
             healthBarSlider.value = health / maxHealth;
     }
-
-    public virtual void SetCoinsUI(int coinAmount) { } //Necessary for PlayerUI script working
-    public virtual void SetManaUI(float mana, float maxMana) { } //Necessary for PlayerUI script working
-
     protected virtual bool ScriptIsSet() 
     {
         bool scriptSetCorrectly = true;

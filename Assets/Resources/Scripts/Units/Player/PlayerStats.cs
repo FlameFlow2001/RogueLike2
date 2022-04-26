@@ -14,7 +14,7 @@ public class PlayerStats : UnitStats
         if (health <= 0 || health > maxHealth)
             health = maxHealth;
         unitComponent.unitUI.SetHealthUI(health, maxHealth);
-        unitComponent.unitUI.SetManaUI(mana, maxMana);
+        ((PlayerUI)unitComponent.unitUI).SetManaUI(mana, maxMana);
         CheckDeath();
     }
 
@@ -23,13 +23,12 @@ public class PlayerStats : UnitStats
         if (mana < maxMana)
         {
             mana += manaRegenPerSec * Time.deltaTime;
-            unitComponent.unitUI.SetManaUI(mana, maxMana);
+            ((PlayerUI)unitComponent.unitUI).SetManaUI(mana, maxMana);
         }
     }
     public void AddCoins(int amount)
     {
         coins += amount;
-        unitComponent.unitUI.SetCoinsUI(amount);
+        ((PlayerUI)unitComponent.unitUI).SetCoinsUI(amount);
     }
-
 }

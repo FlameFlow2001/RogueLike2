@@ -15,46 +15,48 @@ public class PlayerUI : UnitUI
     public GameObject thirdSkillSlot;
     public GameObject ultimateSlot;
     protected Slider manaBarSlider;
-    private Color32 disabledSkillColor = new Color32(255,255,255,100);
-    private Color32 enabledSkillColor = new Color32(255,255,255,255);
-    
-    public override void Start()
+    public override void Awake()
     {
-        unitComponent = (PlayerComponent)unitComponent;
         if (ScriptIsSet())
         {
             healthBarSlider = healthBar.GetComponent<Slider>();
             manaBarSlider = manaBar.GetComponent<Slider>();
-        }     
+        }
     }
-    public void SetSkillUI(Skill skill, GameObject skillSlot)
+    private void Update()
     {
-        skillSlot.GetComponent<SkillSlotUI>().skillIconSlot.sprite = skill.skillIcon;
-        if (skill.GetManacost() != 0)
-        {
-            skillSlot.GetComponent<SkillSlotUI>().manacostText.gameObject.SetActive(true);
-            skillSlot.GetComponent<SkillSlotUI>().manacostText.text = skill.GetManacost().ToString("F0");
-        }
-        else
-        {
-            skillSlot.GetComponent<SkillSlotUI>().manacostText.gameObject.SetActive(false);
-        }
-        if (skill.isEnable)
-        {
-            skillSlot.GetComponent<SkillSlotUI>().skillIconSlot.color = enabledSkillColor;
-            skillSlot.GetComponent<SkillSlotUI>().cooldownText.gameObject.SetActive(false);
-        }
-        else
-        {
-            if (!skill.cooldown.IsCompleted)
-            {
-                skillSlot.GetComponent<SkillSlotUI>().skillIconSlot.color = disabledSkillColor;
-                skillSlot.GetComponent<SkillSlotUI>().cooldownText.gameObject.SetActive(true);
-                skillSlot.GetComponent<SkillSlotUI>().cooldownText.text = skill.cooldown.GetCooldownLeftTime().ToString("F1");
-            }
-            else
-                skillSlot.GetComponent<SkillSlotUI>().cooldownText.gameObject.SetActive(false);
-        } 
+        RefreshSkillUI();
+    }
+    public void RefreshSkillUI()
+    {
+        ((PlayerComponent)unitComponent).playerSlot.firstSkill.GetComponent<Skill>().SetSkillUI();
+        ((PlayerComponent)unitComponent).playerSlot.secondSkill.GetComponent<Skill>().SetSkillUI();
+        ((PlayerComponent)unitComponent).playerSlot.thirdSkill.GetComponent<Skill>().SetSkillUI();
+        ((PlayerComponent)unitComponent).playerSlot.ultimate.GetComponent<Skill>().SetSkillUI();
+        //if (((ActiveSkill)skill).GetManacost() != 0)
+        //{
+        //    skillSlot.GetComponent<SkillSlotUI>().manacostText.gameObject.SetActive(true);
+        //    skillSlot.GetComponent<SkillSlotUI>().manacostText.text = ((ActiveSkill)skill).GetManacost().ToString("F0");
+        //}
+        //else
+        //    skillSlot.GetComponent<SkillSlotUI>().manacostText.gameObject.SetActive(false);
+
+        //if (skill.isEnable)
+        //{
+        //    skillSlot.GetComponent<SkillSlotUI>().skillIconSlot.color = enabledSkillColor;
+        //    skillSlot.GetComponent<SkillSlotUI>().cooldownText.gameObject.SetActive(false);
+        //}
+        //else
+        //{
+        //    skillSlot.GetComponent<SkillSlotUI>().skillIconSlot.color = disabledSkillColor;
+        //    if (!((ActiveSkill)skill).cooldown.IsCompleted)
+        //    {
+        //        skillSlot.GetComponent<SkillSlotUI>().cooldownText.gameObject.SetActive(true);
+        //        skillSlot.GetComponent<SkillSlotUI>().cooldownText.text = ((ActiveSkill)skill).cooldown.GetCooldownLeftTime().ToString("F1");
+        //    }
+        //    else
+        //        skillSlot.GetComponent<SkillSlotUI>().cooldownText.gameObject.SetActive(false);
+        //} 
     }
 
     public override void SetHealthUI(float health, float maxHealth)
@@ -63,12 +65,12 @@ public class PlayerUI : UnitUI
         healthValue.text = health.ToString() + "/" + maxHealth.ToString();
     }
 
-    public override void SetManaUI(float mana, float maxMana)
+    public void SetManaUI(float mana, float maxMana)
     {
         manaBarSlider.value = mana / maxMana;
-        manaValue.text = Math.Round(mana).ToString() + "/" + Math.Round(maxMana).ToString();
+        manaValue.text = Math.Floor(mana).ToString() + "/" + Math.Floor(maxMana).ToString();
     }
-    public override void SetCoinsUI(int coinAmount)
+    public void SetCoinsUI(int coinAmount)
     {
         coinValue.text = coinAmount.ToString();
     }

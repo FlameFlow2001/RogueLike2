@@ -3,7 +3,7 @@ using UnityEngine;
 public class Cooldown
 {
     [SerializeField] private float cooldownTime;
-    [System.NonSerialized] private float cooldownCompleteTime = 0;
+    [System.NonSerialized] private float cooldownCompleteTime;
     public bool IsCompleted
     { 
         get { return Time.time > cooldownCompleteTime; }
@@ -12,5 +12,9 @@ public class Cooldown
 
     public float GetCooldownLeftTime() { return cooldownCompleteTime - Time.time; }
 
-    
+    public void WriteCooldown()
+    {
+        Debug.Log("Now: " + Time.time);
+        Debug.Log("End: " + cooldownCompleteTime);
+    }
 }

@@ -5,30 +5,28 @@ public class Skill : MonoBehaviour
     protected PlayerComponent playerComponent;
     protected Vector2 playerPos;
     protected PlayerUI playerUI;
-    protected PlayerStats playerStats;
+    public PlayerStats playerStats;
     protected bool isUltimateSkill;
-    [SerializeField] protected float manacost;
-    [HideInInspector] public bool isEnable = true;
-    [HideInInspector] public bool enoughMana = true;
-    [HideInInspector] public bool onCooldown = true;
+    [HideInInspector] public bool isEnable { get; protected set; }
     public Sprite skillIcon;
-    public Cooldown cooldown;
+    protected Color32 disabledSkillColor = new Color32(255, 255, 255, 100);
+    protected Color32 enabledSkillColor = new Color32(255, 255, 255, 255);
 
-    public virtual void Awake()
+
+    public virtual void Start()
     {
+        //isEnable = true;
         playerComponent = gameObject.GetComponentInParent<PlayerComponent>();
         playerUI = (PlayerUI)playerComponent.unitUI;
         playerStats = (PlayerStats)playerComponent.unitStats;
-        playerUI.SetSkillUI(this, playerUI.firstSkillSlot);
     }
 
-    protected virtual void Update()
+    public virtual void SetSkillUI()
     {
-        playerUI.SetSkillUI(this, playerUI.firstSkillSlot);
+        gameObject.GetComponentInParent<SkillSlot>().skillIcon.sprite = skillIcon;
+        if (isEnable)
+            gameObject.GetComponentInParent<SkillSlot>().skillIcon.color = enabledSkillColor;
+        else
+            gameObject.GetComponentInParent<SkillSlot>().skillIcon.color = disabledSkillColor;
     }
-    public float GetManacost()
-    {
-        return manacost;
-    }
-    public virtual void SetScript() { }
 }

@@ -13,7 +13,6 @@ public class PlayerSlot : MonoBehaviour
     private void Awake()
     {
         playerComponent = gameObject.GetComponent<PlayerComponent>();
-        //playerComponent.unitUI.
     }
     private void Update()
     {
@@ -65,6 +64,4 @@ public class PlayerSlot : MonoBehaviour
         if (context.performed)
             ultimate.GetComponent<ActiveSkill>().TryToUseSkill();
     }
-
-
 }
