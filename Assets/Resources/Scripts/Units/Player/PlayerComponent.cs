@@ -1,11 +1,11 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerComponent : UnitComponent
 {
     [HideInInspector] public PlayerMovement playerMovement;
     [HideInInspector] public PlayerSlot playerSlot;
     [HideInInspector] public Rigidbody2D rb;
-
     public override void Awake()
     {
         animator = gameObject.GetComponent<Animator>();

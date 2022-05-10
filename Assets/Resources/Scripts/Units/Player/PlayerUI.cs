@@ -33,30 +33,7 @@ public class PlayerUI : UnitUI
         ((PlayerComponent)unitComponent).playerSlot.secondSkill.GetComponent<Skill>().SetSkillUI();
         ((PlayerComponent)unitComponent).playerSlot.thirdSkill.GetComponent<Skill>().SetSkillUI();
         ((PlayerComponent)unitComponent).playerSlot.ultimate.GetComponent<Skill>().SetSkillUI();
-        //if (((ActiveSkill)skill).GetManacost() != 0)
-        //{
-        //    skillSlot.GetComponent<SkillSlotUI>().manacostText.gameObject.SetActive(true);
-        //    skillSlot.GetComponent<SkillSlotUI>().manacostText.text = ((ActiveSkill)skill).GetManacost().ToString("F0");
-        //}
-        //else
-        //    skillSlot.GetComponent<SkillSlotUI>().manacostText.gameObject.SetActive(false);
-
-        //if (skill.isEnable)
-        //{
-        //    skillSlot.GetComponent<SkillSlotUI>().skillIconSlot.color = enabledSkillColor;
-        //    skillSlot.GetComponent<SkillSlotUI>().cooldownText.gameObject.SetActive(false);
-        //}
-        //else
-        //{
-        //    skillSlot.GetComponent<SkillSlotUI>().skillIconSlot.color = disabledSkillColor;
-        //    if (!((ActiveSkill)skill).cooldown.IsCompleted)
-        //    {
-        //        skillSlot.GetComponent<SkillSlotUI>().cooldownText.gameObject.SetActive(true);
-        //        skillSlot.GetComponent<SkillSlotUI>().cooldownText.text = ((ActiveSkill)skill).cooldown.GetCooldownLeftTime().ToString("F1");
-        //    }
-        //    else
-        //        skillSlot.GetComponent<SkillSlotUI>().cooldownText.gameObject.SetActive(false);
-        //} 
+        ((PlayerComponent)unitComponent).playerSlot.dash.GetComponent<Dash>().SetSkillUI();
     }
 
     public override void SetHealthUI(float health, float maxHealth)

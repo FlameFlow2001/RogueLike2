@@ -10,7 +10,7 @@ public class ActiveSkill : Skill
         return manacost;
     }
 
-    protected void Update()
+    protected virtual void Update()
     {
         enoughMana = playerStats.mana > manacost;
         isEnable = enoughMana && cooldown.IsCompleted;

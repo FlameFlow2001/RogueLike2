@@ -15,7 +15,6 @@ public class Skill : MonoBehaviour
 
     public virtual void Start()
     {
-        //isEnable = true;
         playerComponent = gameObject.GetComponentInParent<PlayerComponent>();
         playerUI = (PlayerUI)playerComponent.unitUI;
         playerStats = (PlayerStats)playerComponent.unitStats;

@@ -6,8 +6,8 @@ public class PlayerMovement : MonoBehaviour
     private PlayerComponent playerComponent;
     private PlayerInput playerInput;
     [SerializeField]private float speed;
-    [SerializeField]private float dashRange = 0.3f;
-    private Vector2 direction;
+    [HideInInspector] public Vector2 direction;
+    private bool moveButtonIsHeld;
     private bool areTwoKeysPressed;
     private void Start()
     {
@@ -29,27 +29,28 @@ public class PlayerMovement : MonoBehaviour
     }
     void Update()
     {
-        direction = playerInput.PlayerMovement.Movement.ReadValue<Vector2>();
-        areTwoKeysPressed = direction.x != 0 && direction.y != 0;
-        Move();
+        if (moveButtonIsHeld)
+        {
+            direction = playerInput.PlayerMovement.Movement.ReadValue<Vector2>();
+            areTwoKeysPressed = direction.x != 0 && direction.y != 0;
+            Move();
+        }
+        else
+            playerComponent.animator.SetLayerWeight(1, 0);
+    }
+
+    public void SetStateMoveButton(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+            moveButtonIsHeld = true;
+        if (context.canceled)
+            moveButtonIsHeld = false;
     }
     public void Move()
     {
         transform.Translate(direction * speed * Time.deltaTime);
         if (direction.x != 0 || direction.y != 0)
-        {
             SetAnimatorMovement(direction);
-        }
-        else
-        {
-            playerComponent.animator.SetLayerWeight(1, 0);
-        }
-    }
-
-    public void UseDash(InputAction.CallbackContext context)
-    {
-        if (context.performed)
-            transform.Translate(direction.normalized * dashRange);
     }
     private void SetAnimatorMovement(Vector2 direction)
     {

@@ -5,10 +5,11 @@ public class PlayerSlot : MonoBehaviour
 {
     private PlayerComponent playerComponent;
     public BasicWeaponScript weapon;
-    public GameObject firstSkill;
-    public GameObject secondSkill;
-    public GameObject thirdSkill;
-    public GameObject ultimate;
+    public Skill firstSkill;
+    public Skill secondSkill;
+    public Skill thirdSkill;
+    public Skill ultimate;
+    public Dash dash;
     private bool attackButtonIsHeld;
     private void Awake()
     {
@@ -30,7 +31,7 @@ public class PlayerSlot : MonoBehaviour
         return calculatedShootingDirection;
     }
 
-    public void UseWeapon(InputAction.CallbackContext context)
+    public void SetStateAttackButton(InputAction.CallbackContext context)
     {
         if (context.performed)
             attackButtonIsHeld = true;
@@ -43,25 +44,31 @@ public class PlayerSlot : MonoBehaviour
     {
         if (context.performed)
         {
-            firstSkill.GetComponent<ActiveSkill>().TryToUseSkill();
+            ((ActiveSkill)firstSkill).TryToUseSkill();
         }
     }
 
     public void UseSecondSkill(InputAction.CallbackContext context)
     {
         if (context.performed)
-            secondSkill.GetComponent<ActiveSkill>().TryToUseSkill();
+            ((ActiveSkill)secondSkill).TryToUseSkill();
     }
 
     public void UseThirdSkill(InputAction.CallbackContext context)
     {
         if (context.performed)
-            thirdSkill.GetComponent<ActiveSkill>().TryToUseSkill();
+            ((ActiveSkill)thirdSkill).TryToUseSkill();
     }
 
     public void UseUltimate(InputAction.CallbackContext context)
     {
         if (context.performed)
-            ultimate.GetComponent<ActiveSkill>().TryToUseSkill();
+            ((ActiveSkill)ultimate).TryToUseSkill();
+    }
+
+    public void UseDash(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+            dash.GetComponent<Dash>().UseDash();
     }
 }

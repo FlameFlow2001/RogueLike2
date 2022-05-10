@@ -5,8 +5,9 @@ public class PlayerStats : UnitStats
     public float mana;
     public float maxMana;
     public float manaRegenPerSec;
-    protected void Awake()
+    protected override void Awake()
     {
+        unitComponent = GetComponent<UnitComponent>();
         DontDestroyOnLoad(this);
     }
     protected override void Start()

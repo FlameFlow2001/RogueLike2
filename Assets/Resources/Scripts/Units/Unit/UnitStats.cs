@@ -4,11 +4,15 @@ using System.Collections.Generic;
 
 public class UnitStats : MonoBehaviour
 {
-    public UnitComponent unitComponent;
+    protected UnitComponent unitComponent;
     public float maxHealth;
     public float health;
     public List<GameObject> lootDrop;
 
+    protected virtual void Awake()
+    {
+        unitComponent = GetComponent<UnitComponent>();
+    }
     protected virtual void Start()
     {
         if (health <= 0 || health > maxHealth)
