@@ -322,13 +322,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 2447510168015697223, guid: 2c65a9eb461f63b4f9b95b7295a54f24, type: 3}
-  minDamage: 10
-  maxDamage: 15
   cooldown: 2
   projectile: {fileID: 6133201288956657439, guid: 9ba0809d98f322c4187cc4b6397d1f33,
     type: 3}
   projectileForce: 1.4
   shootingDelay: 1
+  minDamage: 10
+  maxDamage: 15
 --- !u!114 &7938487159366939424
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -345,6 +345,7 @@ MonoBehaviour:
   health: 100
   lootDrop:
   - {fileID: 2195538835919758103, guid: 1258afe2f55ada5448363f79bd664568, type: 3}
+  expForKilling: 15
 --- !u!114 &7938487159366939426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -357,10 +358,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c973f5b51e3b8714a8ca5d60c3d128f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  unitComponent: {fileID: 0}
   damagePopupCanvasPref: {fileID: 9035262947476075793, guid: 6443b1e765f125f4499f850a187570ce,
     type: 3}
   healthBar: {fileID: 6299720671129947939}
-  healthBarSlider: {fileID: 5884366956123511359}
 --- !u!1 &4709021964134586521
 GameObject:
   m_ObjectHideFlags: 0

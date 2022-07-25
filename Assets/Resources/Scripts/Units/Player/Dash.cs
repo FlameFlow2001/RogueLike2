@@ -17,7 +17,6 @@ public class Dash : ActiveSkill
         if (isEnable)
         {
             cooldown.StartCooldown();
-            cooldown.WriteCooldown();
             dashEffectTime.StartCooldown();
         }
     }

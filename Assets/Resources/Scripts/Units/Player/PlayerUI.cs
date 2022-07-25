@@ -1,12 +1,12 @@
 using System;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 
 public class PlayerUI : UnitUI
 {
     
     [SerializeField] protected GameObject manaBar;
+    [SerializeField] protected GameObject expBar;
     [SerializeField] protected Text manaValue;
     [SerializeField] protected Text healthValue;
     [SerializeField] protected Text coinValue;
@@ -15,12 +15,14 @@ public class PlayerUI : UnitUI
     public GameObject thirdSkillSlot;
     public GameObject ultimateSlot;
     protected Slider manaBarSlider;
+    protected Slider expBarSlider;
     public override void Awake()
     {
         if (ScriptIsSet())
         {
             healthBarSlider = healthBar.GetComponent<Slider>();
             manaBarSlider = manaBar.GetComponent<Slider>();
+            expBarSlider = expBar.GetComponent<Slider>();
         }
     }
     private void Update()
@@ -50,6 +52,11 @@ public class PlayerUI : UnitUI
     public void SetCoinsUI(int coinAmount)
     {
         coinValue.text = coinAmount.ToString();
+    }
+
+    public void SetExpUI(float currentExp, float expToPrevLvl, float expToNextLvl)
+    {
+        expBarSlider.value = (currentExp - expToPrevLvl) / (expToNextLvl - expToPrevLvl);
     }
 
     protected override bool ScriptIsSet()

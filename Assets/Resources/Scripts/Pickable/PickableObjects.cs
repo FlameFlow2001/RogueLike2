@@ -4,7 +4,7 @@ public class PickableObjects : TriggeredObjects
 {
     protected GameObject player;
     protected PlayerStats playerStats;
-    protected PlayerSlot playerSlot;
+    protected PlayerSlotUsage playerSlot;
     virtual protected void PickingUpEffect() { }
 
     override protected void TriggerEffect(GameObject triggerer)

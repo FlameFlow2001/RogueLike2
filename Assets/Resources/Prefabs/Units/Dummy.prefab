@@ -161,10 +161,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de4edd0bae44dac47b966b9d7d28fecf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unitComponent: {fileID: 1951749650}
   maxHealth: 100
   health: 100
   lootDrop: []
+  expForKilling: 1
 --- !u!114 &1951749650
 MonoBehaviour:
   m_ObjectHideFlags: 0

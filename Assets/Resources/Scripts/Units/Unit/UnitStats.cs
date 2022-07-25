@@ -4,26 +4,27 @@ using System.Collections.Generic;
 
 public class UnitStats : MonoBehaviour
 {
-    protected UnitComponent unitComponent;
+    protected UnitComponent playerComponent;
     public float maxHealth;
     public float health;
     public List<GameObject> lootDrop;
-
+    protected GameObject player;
     protected virtual void Awake()
     {
-        unitComponent = GetComponent<UnitComponent>();
+        playerComponent = GetComponent<UnitComponent>();
     }
     protected virtual void Start()
     {
+        player = GameObject.Find("Player");
         if (health <= 0 || health > maxHealth)
             health = maxHealth;
-        unitComponent.unitUI.SetHealthUI(health, maxHealth);
+        playerComponent.unitUI.SetHealthUI(health, maxHealth);
         CheckDeath();
     }
 
     private void CreateDamagePopup(float takenDamage)
     {
-        GameObject damagePopupCanvas = Instantiate(unitComponent.unitUI.damagePopupCanvasPref, transform.position, Quaternion.identity, transform);
+        GameObject damagePopupCanvas = Instantiate(playerComponent.unitUI.damagePopupCanvasPref, transform.position, Quaternion.identity, transform);
         damagePopupCanvas.GetComponentInChildren<Text>().text = takenDamage.ToString();
         Vector3 randomPosOffset = new Vector3(Random.Range(-0.1f, 0.1f), Random.Range(-0.1f, 0.1f), 0f);
         damagePopupCanvas.transform.position += randomPosOffset;
@@ -34,11 +35,11 @@ public class UnitStats : MonoBehaviour
         return (health / maxHealth);
     }
 
-    protected void CheckDeath()
+    virtual protected void CheckDeath()
     {
         if (health <= 0)
         {
-            unitComponent.animator.SetTrigger("isDead");
+            playerComponent.animator.SetTrigger("isDead");
             DropLoot();
         }
     }
@@ -53,9 +54,9 @@ public class UnitStats : MonoBehaviour
 
     public void DealDamage(int damage)
     {
-        unitComponent.unitUI.healthBar.SetActive(true);
+        playerComponent.unitUI.healthBar.SetActive(true);
         health -= damage;
-        unitComponent.unitUI.SetHealthUI(health, maxHealth);
+        playerComponent.unitUI.SetHealthUI(health, maxHealth);
         CheckDeath();
         CreateDamagePopup(damage);
     }
@@ -64,7 +65,7 @@ public class UnitStats : MonoBehaviour
     {
         health += heal;
         CheckOverheal();
-        unitComponent.unitUI.SetHealthUI(health, maxHealth);
+        playerComponent.unitUI.SetHealthUI(health, maxHealth);
     }
 
     public void DropLoot()
